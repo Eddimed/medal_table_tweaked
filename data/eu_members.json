@@ -1,0 +1,33 @@
+{
+  "source": "https://europa.eu/european-union/about-eu/countries_en",
+  "updated": "2026-02-08",
+  "members": [
+    {"country_name": "Austria", "noc": "AUT", "eu_member": true},
+    {"country_name": "Belgium", "noc": "BEL", "eu_member": true},
+    {"country_name": "Bulgaria", "noc": "BUL", "eu_member": true},
+    {"country_name": "Croatia", "noc": "CRO", "eu_member": true},
+    {"country_name": "Cyprus", "noc": "CYP", "eu_member": true},
+    {"country_name": "Czech Republic", "noc": "CZE", "eu_member": true},
+    {"country_name": "Denmark", "noc": "DEN", "eu_member": true},
+    {"country_name": "Estonia", "noc": "EST", "eu_member": true},
+    {"country_name": "Finland", "noc": "FIN", "eu_member": true},
+    {"country_name": "France", "noc": "FRA", "eu_member": true},
+    {"country_name": "Germany", "noc": "GER", "eu_member": true},
+    {"country_name": "Greece", "noc": "GRE", "eu_member": true},
+    {"country_name": "Hungary", "noc": "HUN", "eu_member": true},
+    {"country_name": "Ireland", "noc": "IRL", "eu_member": true},
+    {"country_name": "Italy", "noc": "ITA", "eu_member": true},
+    {"country_name": "Latvia", "noc": "LAT", "eu_member": true},
+    {"country_name": "Lithuania", "noc": "LTU", "eu_member": true},
+    {"country_name": "Luxembourg", "noc": "LUX", "eu_member": true},
+    {"country_name": "Malta", "noc": "MLT", "eu_member": true},
+    {"country_name": "Netherlands", "noc": "NED", "eu_member": true},
+    {"country_name": "Poland", "noc": "POL", "eu_member": true},
+    {"country_name": "Portugal", "noc": "POR", "eu_member": true},
+    {"country_name": "Romania", "noc": "ROU", "eu_member": true},
+    {"country_name": "Slovakia", "noc": "SVK", "eu_member": true},
+    {"country_name": "Slovenia", "noc": "SLO", "eu_member": true},
+    {"country_name": "Spain", "noc": "ESP", "eu_member": true},
+    {"country_name": "Sweden", "noc": "SWE", "eu_member": true}
+  ]
+}

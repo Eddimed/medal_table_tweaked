@@ -1,0 +1,17 @@
+rank,country,noc,gold,silver,bronze,total,is_eu
+1,European Union,EU27,6,9,8,23,True
+2,Norway,NOR,3,1,2,6,False
+3,United States,USA,2,0,0,2,False
+4,Italy,ITA,1,2,6,9,True
+5,Japan,JPN,1,2,1,4,False
+6,Austria,AUT,1,2,0,3,True
+7,Germany,GER,1,1,1,3,True
+8,Czech Republic,CZE,1,1,0,2,True
+8,France,FRA,1,1,0,2,True
+8,Sweden,SWE,1,1,0,2,True
+11,Switzerland,SUI,1,0,0,1,False
+12,Slovenia,SLO,0,1,0,1,True
+12,South Korea,KOR,0,1,0,1,False
+14,Bulgaria,BUL,0,0,1,1,True
+14,Canada,CAN,0,0,1,1,False
+14,People's Republic of China,CHN,0,0,1,1,False

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EU Medal Table | Milano-Cortina 2026</title>
+    <meta name="description" content="Enhanced medal table for Milano-Cortina 2026 with a computed EU row.">
+    <link rel="icon" href="img/ed_logo.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --eu-blue: #003399;
+            --eu-yellow: #ffcc00;
+        }
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        .eu-highlight { background: rgba(0, 51, 153, 0.08); }
+        .table-header { background: linear-gradient(90deg, rgba(0,51,153,0.08), rgba(255,204,0,0.12)); }
+        .hero-bg {
+            background: radial-gradient(circle at top left, rgba(0,51,153,0.18), transparent 55%),
+                        radial-gradient(circle at top right, rgba(255,204,0,0.2), transparent 55%),
+                        #ffffff;
+        }
+        .chip { background: rgba(0, 51, 153, 0.12); color: var(--eu-blue); }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <nav class="bg-white/95 backdrop-blur-sm shadow-sm sticky top-0 z-50 border-b border-gray-100">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-3">
+                    <a href="index.html"><img src="img/eddimed_w_subtitle_green_noBG.png" alt="Eddimed Logo" class="h-12 w-auto"></a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html#About" class="text-gray-700 hover:text-blue-700 transition-colors duration-300 font-medium">Über uns</a>
+                    <a href="index.html#Expertise" class="text-gray-700 hover:text-blue-700 transition-colors duration-300 font-medium">Expertise</a>
+                    <a href="index.html#Risiko_Score" class="text-gray-700 hover:text-blue-700 transition-colors duration-300 font-medium">Risiko Score</a>
+                    <a href="olympics-eu.html" class="text-blue-800 font-semibold">Olympische Medaillen (EU)</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="hero-bg">
+        <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-8">
+            <div class="flex flex-col gap-6">
+                <span class="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-widest text-blue-900">
+                    <i class="fa-solid fa-medal"></i> Milano-Cortina 2026
+                </span>
+                <h1 class="text-4xl md:text-5xl font-bold">EU Medal Table</h1>
+                <p class="text-lg text-gray-700 max-w-3xl">
+                    This page aggregates all 27 EU member states and inserts a computed "EU" row into the official medal table.
+                    The data refreshes automatically during the Games.
+                </p>
+                <div class="flex flex-wrap gap-3">
+                    <span class="chip px-3 py-1 rounded-full text-sm">Auto-updated</span>
+                    <span class="chip px-3 py-1 rounded-full text-sm">EU 27</span>
+                    <span class="chip px-3 py-1 rounded-full text-sm">IOC Codes</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+            <div class="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
+                <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 p-6 border-b border-gray-100">
+                    <div>
+                        <h2 class="text-2xl font-semibold">Medal Table (EU enhanced)</h2>
+                        <p class="text-sm text-gray-600">Click headers to sort. EU row is highlighted.</p>
+                    </div>
+                    <div class="text-sm text-gray-600">
+                        <div>Last update: <span id="last-updated">Loading…</span></div>
+                        <div>Source: <span id="source-url">Wikipedia</span></div>
+                    </div>
+                </div>
+
+                <div class="overflow-x-auto">
+                    <table class="min-w-full text-left">
+                        <thead class="table-header text-sm uppercase text-gray-600">
+                            <tr>
+                                <th class="px-6 py-3 cursor-pointer" data-sort="rank">Rank</th>
+                                <th class="px-6 py-3 cursor-pointer" data-sort="country">Country</th>
+                                <th class="px-6 py-3 cursor-pointer" data-sort="noc">IOC</th>
+                                <th class="px-6 py-3 cursor-pointer" data-sort="gold">Gold</th>
+                                <th class="px-6 py-3 cursor-pointer" data-sort="silver">Silver</th>
+                                <th class="px-6 py-3 cursor-pointer" data-sort="bronze">Bronze</th>
+                                <th class="px-6 py-3 cursor-pointer" data-sort="total">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody id="medal-body" class="text-gray-800 text-sm"></tbody>
+                    </table>
+                </div>
+
+                <div id="error-state" class="hidden p-6 text-red-700 bg-red-50">
+                    Could not load the medal data. Please try again later.
+                </div>
+                <div id="error-hint" class="hidden px-6 pb-6 text-sm text-gray-600"></div>
+            </div>
+        </section>
+
+        <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-6">
+                    <h3 class="text-xl font-semibold mb-3">Deutsch</h3>
+                    <p class="text-gray-700">
+                        Diese Tabelle summiert die Medaillen aller 27 EU-Mitgliedstaaten und ergänzt die
+                        offizielle Medaillenübersicht um einen EU-Eintrag. Die Daten werden automatisch
+                        aktualisiert, sobald die Quelle neue Ergebnisse veröffentlicht.
+                    </p>
+                </div>
+                <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-6">
+                    <h3 class="text-xl font-semibold mb-3">English</h3>
+                    <p class="text-gray-700">
+                        This table aggregates medals for all 27 EU member states and inserts a computed
+                        EU entry alongside the official medal standings. Updates happen automatically
+                        as the source data changes.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const state = { rows: [], sortKey: 'rank', sortDir: 'asc' };
+
+        function sortRows(rows, key, dir) {
+            const factor = dir === 'asc' ? 1 : -1;
+            return [...rows].sort((a, b) => {
+                if (typeof a[key] === 'number' && typeof b[key] === 'number') {
+                    return (a[key] - b[key]) * factor;
+                }
+                return String(a[key]).localeCompare(String(b[key])) * factor;
+            });
+        }
+
+        function renderRows(rows) {
+            const body = document.getElementById('medal-body');
+            body.innerHTML = '';
+            rows.forEach(row => {
+                const tr = document.createElement('tr');
+                tr.className = row.noc === 'EU27' ? 'eu-highlight font-semibold' : '';
+                tr.innerHTML = `
+                    <td class="px-6 py-3">${row.rank}</td>
+                    <td class="px-6 py-3">${row.country}</td>
+                    <td class="px-6 py-3">${row.noc}</td>
+                    <td class="px-6 py-3">${row.gold}</td>
+                    <td class="px-6 py-3">${row.silver}</td>
+                    <td class="px-6 py-3">${row.bronze}</td>
+                    <td class="px-6 py-3">${row.total}</td>
+                `;
+                body.appendChild(tr);
+            });
+        }
+
+        function attachSortHandlers() {
+            document.querySelectorAll('[data-sort]').forEach(th => {
+                th.addEventListener('click', () => {
+                    const key = th.dataset.sort;
+                    if (state.sortKey === key) {
+                        state.sortDir = state.sortDir === 'asc' ? 'desc' : 'asc';
+                    } else {
+                        state.sortKey = key;
+                        state.sortDir = 'asc';
+                    }
+                    const sorted = sortRows(state.rows, state.sortKey, state.sortDir);
+                    renderRows(sorted);
+                });
+            });
+        }
+
+        async function loadMedals() {
+            try {
+                const response = await fetch('data/medals_eu.json', { cache: 'no-store' });
+                if (!response.ok) throw new Error(`Failed to load: ${response.status}`);
+                const data = await response.json();
+                state.rows = data.rows || [];
+                document.getElementById('last-updated').textContent = data.last_updated_utc || 'Unknown';
+                document.getElementById('source-url').textContent = 'Wikipedia';
+                renderRows(sortRows(state.rows, state.sortKey, state.sortDir));
+                attachSortHandlers();
+            } catch (err) {
+                document.getElementById('error-state').classList.remove('hidden');
+                const hint = document.getElementById('error-hint');
+                if (window.location.protocol === 'file:') {
+                    hint.textContent = 'Tip: This page uses fetch() and will not load JSON when opened via file://. Run a local server (e.g. `python3 -m http.server` from the repo) or use GitHub Pages.';
+                    hint.classList.remove('hidden');
+                } else {
+                    hint.textContent = `Details: ${err}`;
+                    hint.classList.remove('hidden');
+                }
+                console.error(err);
+            }
+        }
+
+        loadMedals();
+    </script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-# EU27 Medal Table (Milano–Cortina 2026)
+# Medal Table (Milano–Cortina 2026)
 
 This folder contains a standalone, auto-updating medal table that adds a computed **EU27** row to the official medal standings.
 

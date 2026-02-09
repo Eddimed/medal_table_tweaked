@@ -10,6 +10,7 @@ from pathlib import Path
 
 import pandas as pd
 import requests
+import pycountry
 
 MEDAL_URL = "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html"
 IOC_CODES_URL = "https://en.wikipedia.org/wiki/List_of_IOC_country_codes"
@@ -38,6 +39,37 @@ NAME_OVERRIDES = {
     "Hong Kong": "Hong Kong, China",
     "Côte d'Ivoire": "Cote d'Ivoire",
     "Curaçao": "Curacao",
+}
+
+ISO2_OVERRIDES = {
+    "EU27": "EU",
+    "EU": "EU",
+    "Great Britain": "GB",
+    "United States of America": "US",
+    "United States": "US",
+    "Russia": "RU",
+    "Russian Federation": "RU",
+    "Czech Republic": "CZ",
+    "Czechia": "CZ",
+    "Türkiye": "TR",
+    "Turkey": "TR",
+    "South Korea": "KR",
+    "North Korea": "KP",
+    "Korea": "KR",
+    "China": "CN",
+    "People's Republic of China": "CN",
+    "Hong Kong, China": "HK",
+    "Hong Kong": "HK",
+    "Cote d'Ivoire": "CI",
+    "Côte d'Ivoire": "CI",
+    "Viet Nam": "VN",
+    "Vietnam": "VN",
+    "Iran": "IR",
+    "Iran, Islamic Republic of": "IR",
+    "Moldova": "MD",
+    "Bolivia": "BO",
+    "Venezuela": "VE",
+    "Syria": "SY",
 }
 
 
@@ -231,11 +263,16 @@ def parse_medal_table(html, name_to_noc, noc_to_name):
 
         country_name = noc_to_name.get(noc, country)
 
+        iso2 = iso2_from_country(country_name)
+        flag_url = f"https://flagcdn.com/w40/{iso2.lower()}.png" if iso2 else None
+
         rows.append(
             {
                 "rank": to_int(row.get(rank_col)) if rank_col else None,
                 "country": country_name,
                 "noc": noc,
+                "iso2": iso2,
+                "flag_url": flag_url,
                 "gold": gold,
                 "silver": silver,
                 "bronze": bronze,
@@ -262,6 +299,18 @@ def compute_rank(rows):
     return rows_sorted
 
 
+def iso2_from_country(country_name):
+    if not country_name:
+        return None
+    if country_name in ISO2_OVERRIDES:
+        return ISO2_OVERRIDES[country_name]
+    try:
+        match = pycountry.countries.search_fuzzy(country_name)[0]
+        return match.alpha_2
+    except Exception:
+        return None
+
+
 def load_eu_members():
     data = load_json(EU_MEMBERS_JSON, {"members": []})
     return [m for m in data.get("members", []) if m.get("eu_member")]
@@ -282,6 +331,8 @@ def add_eu_row(rows, eu_members):
             "rank": None,
             "country": "European Union",
             "noc": "EU27",
+            "iso2": "EU",
+            "flag_url": "https://flagcdn.com/w40/eu.png",
             "gold": gold,
             "silver": silver,
             "bronze": bronze,
@@ -297,7 +348,18 @@ def write_outputs(rows, meta, unmapped):
     with MEDALS_CSV.open("w", encoding="utf-8", newline="") as fh:
         writer = csv.DictWriter(
             fh,
-            fieldnames=["rank", "country", "noc", "gold", "silver", "bronze", "total", "is_eu"],
+            fieldnames=[
+                "rank",
+                "country",
+                "noc",
+                "iso2",
+                "flag_url",
+                "gold",
+                "silver",
+                "bronze",
+                "total",
+                "is_eu",
+            ],
         )
         writer.writeheader()
         for row in rows:

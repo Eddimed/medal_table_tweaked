@@ -8,19 +8,19 @@
 
     <meta property="og:title" content="Medal Table | Milano-Cortina 2026">
     <meta property="og:description" content="Enhanced medal table with a computed EU27 row.">
-    <meta property="og:image" content="https://diabsurance.de/img/diabsurance_logo_green.png">
-    <meta property="og:url" content="https://diabsurance.de/">
+    <meta property="og:image" content="https://olympia.diabsurance.de/img/mico2026-emblem-oly.png">
+    <meta property="og:url" content="https://olympia.diabsurance.de/">
     <meta property="og:type" content="website">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Medal Table | Milano-Cortina 2026">
     <meta name="twitter:description" content="Enhanced medal table with a computed EU27 row.">
-    <meta name="twitter:image" content="https://diabsurance.de/img/diabsurance_logo_green.png">
+    <meta name="twitter:image" content="https://olympia.diabsurance.de/img/mico2026-emblem-oly.png">
 
     <meta name="robots" content="index, follow">
 
     <title>Medal Table | Milano-Cortina 2026</title>
-    <link rel="icon" href="https://diabsurance.de/img/diabsurance_shorty_300x300.png" type="image/png">
+    <link rel="icon" href="https://olympia.diabsurance.de/img/mico2026-emblem-oly.png" type="image/png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -155,9 +155,15 @@
             rows.forEach(row => {
                 const tr = document.createElement('tr');
                 tr.className = row.noc === 'EU27' ? 'eu-highlight font-semibold' : '';
+                const flag = row.flag_url ? `<img src="${row.flag_url}" alt="${row.country} flag" class="h-4 w-6 rounded-sm object-cover border border-gray-300">` : '';
                 tr.innerHTML = `
                     <td class="px-6 py-3">${row.rank}</td>
-                    <td class="px-6 py-3">${row.country}</td>
+                    <td class="px-6 py-3">
+                        <div class="flex items-center gap-3">
+                            ${flag}
+                            <span>${row.country}</span>
+                        </div>
+                    </td>
                     <td class="px-6 py-3">${row.noc}</td>
                     <td class="px-6 py-3">${row.gold}</td>
                     <td class="px-6 py-3">${row.silver}</td>

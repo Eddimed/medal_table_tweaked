@@ -13,7 +13,7 @@ This folder contains a standalone, auto-updating medal table that adds a compute
 ## Structure
 ```
 medal_table_tweaked/
-├── olympics-eu.html
+├── medal-table.html
 ├── data/
 │   ├── medals_eu.csv
 │   ├── medals_eu.json
@@ -45,6 +45,20 @@ Open: `http://localhost:8000/olympics-eu.html`
 ## GitHub Actions
 The workflow runs every 30 minutes and performs a **fast ETag check** to skip full work when nothing changed.
 
+
+## Data Access
+Once published to GitHub Pages, the data files are publicly accessible and can be used as a lightweight API.
+
+Example URLs (adjust to your repo/site):
+- `https://<your-domain-or-user>.github.io/<repo>/data/medals_eu.json`
+- `https://<your-domain-or-user>.github.io/<repo>/data/medals_eu.csv`
+
+Example (fetch JSON in the browser):
+```js
+fetch('https://<your-domain-or-user>.github.io/<repo>/data/medals_eu.json')
+  .then(r => r.json())
+  .then(console.log);
+```
 ## Notes
 - The EU27 row is computed from `data/eu_members.json` and uses the code `EU27`.
 - `ioc_codes.csv` is auto-populated from Wikipedia if empty; you can replace it with a curated list if desired.

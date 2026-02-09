@@ -1,78 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EU Medal Table | Milano-Cortina 2026</title>
-    <meta name="description" content="Enhanced medal table for Milano-Cortina 2026 with a computed EU row.">
-    <link rel="icon" href="img/ed_logo.png" type="image/png">
+    <meta name="description"
+        content="EU27 Medal Table for Milano-Cortina 2026 with a computed EU row, updated automatically.">
+
+    <meta property="og:title" content="Medal Table | Milano-Cortina 2026">
+    <meta property="og:description" content="Enhanced medal table with a computed EU27 row.">
+    <meta property="og:image" content="https://diabsurance.de/img/diabsurance_logo_green.png">
+    <meta property="og:url" content="https://diabsurance.de/">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Medal Table | Milano-Cortina 2026">
+    <meta name="twitter:description" content="Enhanced medal table with a computed EU27 row.">
+    <meta name="twitter:image" content="https://diabsurance.de/img/diabsurance_logo_green.png">
+
+    <meta name="robots" content="index, follow">
+
+    <title>Medal Table | Milano-Cortina 2026</title>
+    <link rel="icon" href="https://diabsurance.de/img/diabsurance_shorty_300x300.png" type="image/png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+    
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'diab-blue': '#4285f4',
+                        'diab-green': '#34a853',
+                        'diab-light-blue': '#e8f0fe',
+                        'diab-light-green': '#e6f4ea'
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
     <style>
-        :root {
-            --eu-blue: #003399;
-            --eu-yellow: #ffcc00;
+        .gradient-bg {
+            background: linear-gradient(135deg, #4285f4 0%, #34a853 100%);
         }
-        body { font-family: 'Inter', system-ui, sans-serif; }
-        .eu-highlight { background: rgba(0, 51, 153, 0.08); }
-        .table-header { background: linear-gradient(90deg, rgba(0,51,153,0.08), rgba(255,204,0,0.12)); }
-        .hero-bg {
-            background: radial-gradient(circle at top left, rgba(0,51,153,0.18), transparent 55%),
-                        radial-gradient(circle at top right, rgba(255,204,0,0.2), transparent 55%),
-                        #ffffff;
+        .glass-effect {
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.9);
+            border: 1px solid rgba(0, 0, 0, 0.05);
         }
-        .chip { background: rgba(0, 51, 153, 0.12); color: var(--eu-blue); }
+        .hover-lift {
+            transition: all 0.3s ease;
+        }
+        .hover-lift:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+        }
+        a { color: #2563eb; text-decoration: underline; text-underline-offset: 2px; }
+        a:hover { color: #1d4ed8; text-decoration-thickness: 2px; }
+        .eu-highlight { background: rgba(52, 168, 83, 0.12); }
+        .table-header { background: linear-gradient(90deg, rgba(66,133,244,0.12), rgba(52,168,83,0.12)); }
     </style>
 </head>
-<body class="bg-white text-gray-900">
-    <nav class="bg-white/95 backdrop-blur-sm shadow-sm sticky top-0 z-50 border-b border-gray-100">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center py-4">
-                <div class="flex items-center space-x-3">
-                    <a href="index.html"><img src="img/eddimed_w_subtitle_green_noBG.png" alt="Eddimed Logo" class="h-12 w-auto"></a>
-                </div>
-                <div class="hidden md:flex items-center space-x-8">
-                    <a href="index.html#About" class="text-gray-700 hover:text-blue-700 transition-colors duration-300 font-medium">Über uns</a>
-                    <a href="index.html#Expertise" class="text-gray-700 hover:text-blue-700 transition-colors duration-300 font-medium">Expertise</a>
-                    <a href="index.html#Risiko_Score" class="text-gray-700 hover:text-blue-700 transition-colors duration-300 font-medium">Risiko Score</a>
-                    <a href="olympics-eu.html" class="text-blue-800 font-semibold">Olympische Medaillen (EU)</a>
-                </div>
-            </div>
-        </div>
-    </nav>
 
-    <main class="hero-bg">
-        <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-8">
-            <div class="flex flex-col gap-6">
-                <span class="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-widest text-blue-900">
-                    <i class="fa-solid fa-medal"></i> Milano-Cortina 2026
-                </span>
-                <h1 class="text-4xl md:text-5xl font-bold">EU Medal Table</h1>
-                <p class="text-lg text-gray-700 max-w-3xl">
-                    This page aggregates all 27 EU member states and inserts a computed "EU" row into the official medal table.
-                    The data refreshes automatically during the Games.
-                </p>
-                <div class="flex flex-wrap gap-3">
-                    <span class="chip px-3 py-1 rounded-full text-sm">Auto-updated</span>
-                    <span class="chip px-3 py-1 rounded-full text-sm">EU 27</span>
-                    <span class="chip px-3 py-1 rounded-full text-sm">IOC Codes</span>
-                </div>
-            </div>
-        </section>
+<body class="gradient-bg font-sans text-gray-900 min-h-screen flex flex-col">
+    
 
-        <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
-            <div class="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
-                <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 p-6 border-b border-gray-100">
+    <main class="pt-6 flex-1">
+        <section class="text-white max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-8">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-0 pb-8">
+                <div class="grid lg:grid-cols-2 gap-10 items-center">
                     <div>
-                        <h2 class="text-2xl font-semibold">Medal Table (EU enhanced)</h2>
-                        <p class="text-sm text-gray-600">Click headers to sort. EU row is highlighted.</p>
+                        <span class="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-widest">
+                            <i class="fa-solid fa-medal"></i> Milano‑Cortina 2026
+                        </span>
+                        <div class="flex items-center gap-4 mt-4">
+                        <span class="bg-white rounded-full p-3 shadow-sm"><img src="img/mico2026-emblem-oly.png" alt="Milano-Cortina 2026 Emblem" class="h-14 w-14"></span>
+                        <h1 class="text-4xl lg:text-5xl font-bold">Medal Table</h1>
                     </div>
-                    <div class="text-sm text-gray-600">
-                        <div>Last update: <span id="last-updated">Loading…</span></div>
-                        <div>Source: <span id="source-url">Wikipedia</span></div>
                     </div>
                 </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden hover-lift">
 
                 <div class="overflow-x-auto">
                     <table class="min-w-full text-left">
@@ -96,29 +111,30 @@
                 </div>
                 <div id="error-hint" class="hidden px-6 pb-6 text-sm text-gray-600"></div>
             </div>
-        </section>
 
-        <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
-            <div class="grid md:grid-cols-2 gap-8">
-                <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-6">
-                    <h3 class="text-xl font-semibold mb-3">Deutsch</h3>
-                    <p class="text-gray-700">
-                        Diese Tabelle summiert die Medaillen aller 27 EU-Mitgliedstaaten und ergänzt die
-                        offizielle Medaillenübersicht um einen EU-Eintrag. Die Daten werden automatisch
-                        aktualisiert, sobald die Quelle neue Ergebnisse veröffentlicht.
-                    </p>
+            <div class="mt-4 grid gap-3 sm:grid-cols-1 lg:grid-cols-2">
+                <div class="bg-white/90 rounded-full shadow-md border border-gray-100 px-5 py-3 text-sm text-gray-700 flex flex-col items-center text-center justify-center gap-1">
+                    <div>Source: <a id="source-url" href="https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html" target="_blank" rel="noopener noreferrer" class="underline">Wikipedia (Medal Table)</a></div>
+                    <div>Updated: <span id="last-updated-compact">Loading…</span></div>
                 </div>
-                <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-6">
-                    <h3 class="text-xl font-semibold mb-3">English</h3>
-                    <p class="text-gray-700">
-                        This table aggregates medals for all 27 EU member states and inserts a computed
-                        EU entry alongside the official medal standings. Updates happen automatically
-                        as the source data changes.
-                    </p>
+                <div class="bg-white/90 rounded-full shadow-md border border-gray-100 px-5 py-3 text-sm text-gray-700 flex items-center text-center justify-center">
+                    Click headers to sort.<br>
+                    EU27 row is dynamically updated.
                 </div>
             </div>
         </section>
+
     </main>
+
+<!-- Footer -->
+    <footer class="bg-gray-900 text-white text-center py-2">
+        <div>
+            <a href="https://www.openstreetmap.org/relation/2793104" target="_blank"
+            rel="noopener noreferrer">Stuttgart</a>, Jan 2026 - <a
+                    href="https://diabsurance.de/" class="hover:text-gray-200 transition-colors duration-300">Diabsurance</a> - Alle Rechte vorbehalten - <a
+                    href="https://diabsurance.de/impressum.html" class="hover:text-gray-200 transition-colors duration-300">Impressum</a>
+        </div>
+    </footer>
 
     <script>
         const state = { rows: [], sortKey: 'rank', sortDir: 'asc' };
@@ -174,8 +190,16 @@
                 if (!response.ok) throw new Error(`Failed to load: ${response.status}`);
                 const data = await response.json();
                 state.rows = data.rows || [];
-                document.getElementById('last-updated').textContent = data.last_updated_utc || 'Unknown';
-                document.getElementById('source-url').textContent = 'Wikipedia';
+                const updated = data.last_updated_utc || 'Unknown';
+                const lastUpdated = document.getElementById('last-updated');
+                if (lastUpdated) lastUpdated.textContent = updated;
+                const lastUpdatedCompact = document.getElementById('last-updated-compact');
+                if (lastUpdatedCompact) lastUpdatedCompact.textContent = updated;
+                const sourceUrl = document.getElementById('source-url');
+                if (sourceUrl) {
+                    sourceUrl.textContent = 'Wikipedia (Medal Table)';
+                    sourceUrl.href = 'https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html';
+                }
                 renderRows(sortRows(state.rows, state.sortKey, state.sortDir));
                 attachSortHandlers();
             } catch (err) {

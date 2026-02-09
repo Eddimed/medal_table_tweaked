@@ -13,7 +13,7 @@ This folder contains a standalone, auto-updating medal table that adds a compute
 ## Structure
 ```
 medal_table_tweaked/
-├── medal-table.html
+├── index.html
 ├── data/
 │   ├── medals_eu.csv
 │   ├── medals_eu.json
@@ -40,7 +40,7 @@ Serve the page locally (so `fetch()` works):
 ```bash
 python3 -m http.server 8000
 ```
-Open: `http://localhost:8000/olympics-eu.html`
+Open: `http://localhost:8000/index.html`
 
 ## GitHub Actions
 The workflow runs every 30 minutes and performs a **fast ETag check** to skip full work when nothing changed.
@@ -68,14 +68,19 @@ fetch('https://<your-domain-or-user>.github.io/<repo>/data/medals_eu.json')
 This repository is set up to be served from the **master** branch using GitHub Pages.
 
 Required files:
-- `index.html` (already included; copy of `medal-table.html`)
-- `CNAME` containing `olympics.diabsurance.de`
+- `index.html`
+- `CNAME` containing `olympia.diabsurance.de`
 - `.nojekyll`
 
 DNS setup (at your domain provider):
 - **Type:** CNAME
-- **Host/Name:** `olympics`
+- **Host/Name:** `olympia`
 - **Value/Target:** `eddimed.github.io`
 
 After the DNS change propagates and the repo is pushed, the site will be reachable at:
-- `https://olympics.diabsurance.de`
+- `https://olympia.diabsurance.de`
+
+
+## Commercial Use
+Commercial use requires prior permission. Please contact us via:
+- https://diabsurance.de/impressum.html

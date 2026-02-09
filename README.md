@@ -1,4 +1,4 @@
-# EU27 Medal Table (Milano–Cortina 2026)
+# Medal Table (Milano–Cortina 2026)
 
 This folder contains a standalone, auto-updating medal table that adds a computed **EU27** row to the official medal standings.
 
@@ -62,3 +62,20 @@ fetch('https://<your-domain-or-user>.github.io/<repo>/data/medals_eu.json')
 ## Notes
 - The EU27 row is computed from `data/eu_members.json` and uses the code `EU27`.
 - `ioc_codes.csv` is auto-populated from Wikipedia if empty; you can replace it with a curated list if desired.
+
+
+## GitHub Pages Deployment
+This repository is set up to be served from the **master** branch using GitHub Pages.
+
+Required files:
+- `index.html` (already included; copy of `medal-table.html`)
+- `CNAME` containing `olympics.diabsurance.de`
+- `.nojekyll`
+
+DNS setup (at your domain provider):
+- **Type:** CNAME
+- **Host/Name:** `olympics`
+- **Value/Target:** `eddimed.github.io`
+
+After the DNS change propagates and the repo is pushed, the site will be reachable at:
+- `https://olympics.diabsurance.de`

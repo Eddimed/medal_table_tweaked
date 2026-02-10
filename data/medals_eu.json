@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-02-09T22:27:31+00:00",
+  "last_updated_utc": "2026-02-10T12:51:36+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "source_revision_id": "W/\"1337509231/deeef925-0605-11f1-a4f2-0721ef6da7d4/view/html\"",
-  "source_retrieved_at_utc": "2026-02-09T22:27:31+00:00",
+  "source_revision_id": "W/\"1337600691/f10c74be-067d-11f1-a440-8184c662ed33/view/html\"",
+  "source_retrieved_at_utc": "2026-02-10T12:51:35+00:00",
   "rows": [
     {
       "rank": 1,
@@ -10,10 +10,10 @@
       "noc": "EU27",
       "iso2": "EU",
       "flag_url": "https://flagcdn.com/w40/eu.png",
-      "gold": 8,
-      "silver": 12,
-      "bronze": 8,
-      "total": 28,
+      "gold": 10,
+      "silver": 13,
+      "bronze": 10,
+      "total": 33,
       "is_eu": true
     },
     {
@@ -22,10 +22,10 @@
       "noc": "NOR",
       "iso2": "NO",
       "flag_url": "https://flagcdn.com/w40/no.png",
-      "gold": 3,
+      "gold": 4,
       "silver": 1,
-      "bronze": 2,
-      "total": 6,
+      "bronze": 3,
+      "total": 8,
       "is_eu": false
     },
     {
@@ -42,6 +42,18 @@
     },
     {
       "rank": 4,
+      "country": "Italy",
+      "noc": "ITA",
+      "iso2": "IT",
+      "flag_url": "https://flagcdn.com/w40/it.png",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 6,
+      "total": 10,
+      "is_eu": true
+    },
+    {
+      "rank": 5,
       "country": "Japan",
       "noc": "JPN",
       "iso2": "JP",
@@ -53,7 +65,19 @@
       "is_eu": false
     },
     {
-      "rank": 5,
+      "rank": 6,
+      "country": "Sweden",
+      "noc": "SWE",
+      "iso2": "SE",
+      "flag_url": "https://flagcdn.com/w40/se.png",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 1,
+      "total": 5,
+      "is_eu": true
+    },
+    {
+      "rank": 7,
       "country": "Germany",
       "noc": "GER",
       "iso2": "DE",
@@ -65,19 +89,19 @@
       "is_eu": true
     },
     {
-      "rank": 6,
+      "rank": 8,
       "country": "United States",
       "noc": "USA",
       "iso2": "US",
       "flag_url": "https://flagcdn.com/w40/us.png",
       "gold": 2,
-      "silver": 0,
+      "silver": 1,
       "bronze": 0,
-      "total": 2,
+      "total": 3,
       "is_eu": false
     },
     {
-      "rank": 7,
+      "rank": 9,
       "country": "Austria",
       "noc": "AUT",
       "iso2": "AT",
@@ -89,19 +113,7 @@
       "is_eu": true
     },
     {
-      "rank": 8,
-      "country": "Italy",
-      "noc": "ITA",
-      "iso2": "IT",
-      "flag_url": "https://flagcdn.com/w40/it.png",
-      "gold": 1,
-      "silver": 2,
-      "bronze": 6,
-      "total": 9,
-      "is_eu": true
-    },
-    {
-      "rank": 9,
+      "rank": 10,
       "country": "Czech Republic",
       "noc": "CZE",
       "iso2": "CZ",
@@ -113,7 +125,7 @@
       "is_eu": true
     },
     {
-      "rank": 9,
+      "rank": 10,
       "country": "France",
       "noc": "FRA",
       "iso2": "FR",
@@ -125,7 +137,7 @@
       "is_eu": true
     },
     {
-      "rank": 9,
+      "rank": 10,
       "country": "Netherlands",
       "noc": "NED",
       "iso2": "NL",
@@ -137,19 +149,19 @@
       "is_eu": true
     },
     {
-      "rank": 9,
-      "country": "Sweden",
-      "noc": "SWE",
-      "iso2": "SE",
-      "flag_url": "https://flagcdn.com/w40/se.png",
-      "gold": 1,
+      "rank": 13,
+      "country": "Canada",
+      "noc": "CAN",
+      "iso2": "CA",
+      "flag_url": "https://flagcdn.com/w40/ca.png",
+      "gold": 0,
       "silver": 1,
-      "bronze": 0,
-      "total": 2,
-      "is_eu": true
+      "bronze": 2,
+      "total": 3,
+      "is_eu": false
     },
     {
-      "rank": 13,
+      "rank": 14,
       "country": "People's Republic of China",
       "noc": "CHN",
       "iso2": "CN",
@@ -161,7 +173,7 @@
       "is_eu": false
     },
     {
-      "rank": 13,
+      "rank": 14,
       "country": "South Korea",
       "noc": "KOR",
       "iso2": "KR",
@@ -173,7 +185,7 @@
       "is_eu": false
     },
     {
-      "rank": 15,
+      "rank": 16,
       "country": "New Zealand",
       "noc": "NZL",
       "iso2": "NZ",
@@ -185,7 +197,7 @@
       "is_eu": false
     },
     {
-      "rank": 15,
+      "rank": 16,
       "country": "Poland",
       "noc": "POL",
       "iso2": "PL",
@@ -197,7 +209,7 @@
       "is_eu": true
     },
     {
-      "rank": 15,
+      "rank": 16,
       "country": "Slovenia",
       "noc": "SLO",
       "iso2": "SI",
@@ -209,16 +221,16 @@
       "is_eu": true
     },
     {
-      "rank": 18,
-      "country": "Canada",
-      "noc": "CAN",
-      "iso2": "CA",
-      "flag_url": "https://flagcdn.com/w40/ca.png",
+      "rank": 19,
+      "country": "Belgium",
+      "noc": "BEL",
+      "iso2": "BE",
+      "flag_url": "https://flagcdn.com/w40/be.png",
       "gold": 0,
       "silver": 0,
-      "bronze": 2,
-      "total": 2,
-      "is_eu": false
+      "bronze": 1,
+      "total": 1,
+      "is_eu": true
     },
     {
       "rank": 19,

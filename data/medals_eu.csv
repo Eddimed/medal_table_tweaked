@@ -1,9 +1,9 @@
 rank,country,noc,iso2,flag_url,gold,silver,bronze,total,is_eu
-1,European Union,EU27,EU,https://flagcdn.com/w40/eu.png,11,15,10,36,True
+1,European Union,EU27,EU,https://flagcdn.com/w40/eu.png,11,15,11,37,True
 2,Norway,NOR,NO,https://flagcdn.com/w40/no.png,6,1,4,11,False
 3,Switzerland,SUI,CH,https://flagcdn.com/w40/ch.png,3,1,1,5,False
 4,Austria,AUT,AT,https://flagcdn.com/w40/at.png,2,3,0,5,True
-5,Italy,ITA,IT,https://flagcdn.com/w40/it.png,2,2,6,10,True
+5,Italy,ITA,IT,https://flagcdn.com/w40/it.png,2,2,7,11,True
 6,Japan,JPN,JP,https://flagcdn.com/w40/jp.png,2,2,3,7,False
 7,Germany,GER,DE,https://flagcdn.com/w40/de.png,2,2,1,5,True
 7,Sweden,SWE,SE,https://flagcdn.com/w40/se.png,2,2,1,5,True

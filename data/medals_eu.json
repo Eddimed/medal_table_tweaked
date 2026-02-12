@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-02-12T18:49:50+00:00",
+  "last_updated_utc": "2026-02-12T20:24:36+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "source_revision_id": "W/\"1338010516/5231870c-0843-11f1-a944-fd4ae277f4d6/view/html\"",
-  "source_retrieved_at_utc": "2026-02-12T18:49:49+00:00",
+  "source_revision_id": "W/\"1338025206/a9d4e088-084d-11f1-a08a-736d2e1e0aa7/view/html\"",
+  "source_retrieved_at_utc": "2026-02-12T20:24:36+00:00",
   "rows": [
     {
       "rank": 1,
@@ -47,9 +47,9 @@
       "iso2": "US",
       "flag_url": "https://flagcdn.com/w40/us.png",
       "gold": 4,
-      "silver": 6,
+      "silver": 7,
       "bronze": 3,
-      "total": 13,
+      "total": 14,
       "is_eu": false
     },
     {
@@ -120,8 +120,8 @@
       "flag_url": "https://flagcdn.com/w40/jp.png",
       "gold": 2,
       "silver": 2,
-      "bronze": 5,
-      "total": 9,
+      "bronze": 6,
+      "total": 10,
       "is_eu": false
     },
     {
@@ -138,6 +138,18 @@
     },
     {
       "rank": 12,
+      "country": "South Korea",
+      "noc": "KOR",
+      "iso2": "KR",
+      "flag_url": "https://flagcdn.com/w40/kr.png",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 1,
+      "total": 3,
+      "is_eu": false
+    },
+    {
+      "rank": 13,
       "country": "Czech Republic",
       "noc": "CZE",
       "iso2": "CZ",
@@ -149,7 +161,7 @@
       "is_eu": true
     },
     {
-      "rank": 12,
+      "rank": 13,
       "country": "Slovenia",
       "noc": "SLO",
       "iso2": "SI",
@@ -161,7 +173,7 @@
       "is_eu": true
     },
     {
-      "rank": 14,
+      "rank": 15,
       "country": "Australia",
       "noc": "AUS",
       "iso2": "AU",
@@ -173,7 +185,7 @@
       "is_eu": false
     },
     {
-      "rank": 15,
+      "rank": 16,
       "country": "Canada",
       "noc": "CAN",
       "iso2": "CA",
@@ -185,7 +197,7 @@
       "is_eu": false
     },
     {
-      "rank": 16,
+      "rank": 17,
       "country": "People's Republic of China",
       "noc": "CHN",
       "iso2": "CN",
@@ -197,23 +209,11 @@
       "is_eu": false
     },
     {
-      "rank": 17,
+      "rank": 18,
       "country": "New Zealand",
       "noc": "NZL",
       "iso2": "NZ",
       "flag_url": "https://flagcdn.com/w40/nz.png",
-      "gold": 0,
-      "silver": 1,
-      "bronze": 1,
-      "total": 2,
-      "is_eu": false
-    },
-    {
-      "rank": 17,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso2": "KR",
-      "flag_url": "https://flagcdn.com/w40/kr.png",
       "gold": 0,
       "silver": 1,
       "bronze": 1,

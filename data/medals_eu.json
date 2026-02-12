@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-02-12T07:44:48+00:00",
+  "last_updated_utc": "2026-02-12T11:33:40+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "source_revision_id": "W/\"1337864222/5085a09d-07e6-11f1-96e4-f38c116d050a/view/html\"",
-  "source_retrieved_at_utc": "2026-02-12T07:44:48+00:00",
+  "source_revision_id": "W/\"1337959045/95b9bf23-0806-11f1-81da-9774e8401e99/view/html\"",
+  "source_retrieved_at_utc": "2026-02-12T11:33:40+00:00",
   "rows": [
     {
       "rank": 1,
@@ -10,10 +10,10 @@
       "noc": "EU27",
       "iso2": "EU",
       "flag_url": "https://flagcdn.com/w40/eu.png",
-      "gold": 18,
-      "silver": 21,
-      "bronze": 16,
-      "total": 55,
+      "gold": 19,
+      "silver": 22,
+      "bronze": 17,
+      "total": 58,
       "is_eu": true
     },
     {
@@ -30,6 +30,18 @@
     },
     {
       "rank": 3,
+      "country": "Italy",
+      "noc": "ITA",
+      "iso2": "IT",
+      "flag_url": "https://flagcdn.com/w40/it.png",
+      "gold": 5,
+      "silver": 2,
+      "bronze": 7,
+      "total": 14,
+      "is_eu": true
+    },
+    {
+      "rank": 4,
       "country": "United States",
       "noc": "USA",
       "iso2": "US",
@@ -39,18 +51,6 @@
       "bronze": 2,
       "total": 12,
       "is_eu": false
-    },
-    {
-      "rank": 4,
-      "country": "Italy",
-      "noc": "ITA",
-      "iso2": "IT",
-      "flag_url": "https://flagcdn.com/w40/it.png",
-      "gold": 4,
-      "silver": 2,
-      "bronze": 7,
-      "total": 13,
-      "is_eu": true
     },
     {
       "rank": 5,
@@ -66,6 +66,18 @@
     },
     {
       "rank": 6,
+      "country": "France",
+      "noc": "FRA",
+      "iso2": "FR",
+      "flag_url": "https://flagcdn.com/w40/fr.png",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 1,
+      "total": 8,
+      "is_eu": true
+    },
+    {
+      "rank": 7,
       "country": "Germany",
       "noc": "GER",
       "iso2": "DE",
@@ -74,18 +86,6 @@
       "silver": 3,
       "bronze": 2,
       "total": 8,
-      "is_eu": true
-    },
-    {
-      "rank": 7,
-      "country": "France",
-      "noc": "FRA",
-      "iso2": "FR",
-      "flag_url": "https://flagcdn.com/w40/fr.png",
-      "gold": 3,
-      "silver": 3,
-      "bronze": 1,
-      "total": 7,
       "is_eu": true
     },
     {
@@ -108,8 +108,8 @@
       "flag_url": "https://flagcdn.com/w40/at.png",
       "gold": 2,
       "silver": 5,
-      "bronze": 1,
-      "total": 8,
+      "bronze": 2,
+      "total": 9,
       "is_eu": true
     },
     {

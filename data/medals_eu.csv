@@ -9,9 +9,9 @@ rank,country,noc,iso2,flag_url,gold,silver,bronze,total,is_eu
 8,Switzerland,SUI,CH,https://flagcdn.com/w40/ch.png,4,1,2,7,False
 9,Austria,AUT,AT,https://flagcdn.com/w40/at.png,3,6,3,12,True
 10,Netherlands,NED,NL,https://flagcdn.com/w40/nl.png,3,3,1,7,True
-11,Japan,JPN,JP,https://flagcdn.com/w40/jp.png,2,2,6,10,False
+11,Japan,JPN,JP,https://flagcdn.com/w40/jp.png,3,2,7,12,False
 12,Czech Republic,CZE,CZ,https://flagcdn.com/w40/cz.png,2,2,0,4,True
-13,Australia,AUS,AU,https://flagcdn.com/w40/au.png,2,0,0,2,False
+13,Australia,AUS,AU,https://flagcdn.com/w40/au.png,2,1,0,3,False
 14,South Korea,KOR,KR,https://flagcdn.com/w40/kr.png,1,1,2,4,False
 15,Slovenia,SLO,SI,https://flagcdn.com/w40/si.png,1,1,0,2,True
 16,Canada,CAN,CA,https://flagcdn.com/w40/ca.png,0,3,4,7,False

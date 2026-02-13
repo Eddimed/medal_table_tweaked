@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-02-13T20:27:31+00:00",
+  "last_updated_utc": "2026-02-13T21:03:08+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "source_revision_id": "W/\"1338202947/6befca39-0916-11f1-87db-c103439ad370/view/html\"",
-  "source_retrieved_at_utc": "2026-02-13T20:27:31+00:00",
+  "source_revision_id": "W/\"1338212009/b7a665bd-091e-11f1-ad93-458ea601c09e/view/html\"",
+  "source_retrieved_at_utc": "2026-02-13T21:03:07+00:00",
   "rows": [
     {
       "rank": 1,
@@ -11,9 +11,9 @@
       "iso2": "EU",
       "flag_url": "https://flagcdn.com/w40/eu.png",
       "gold": 27,
-      "silver": 29,
-      "bronze": 21,
-      "total": 77,
+      "silver": 30,
+      "bronze": 22,
+      "total": 79,
       "is_eu": true
     },
     {
@@ -71,9 +71,9 @@
       "iso2": "DE",
       "flag_url": "https://flagcdn.com/w40/de.png",
       "gold": 4,
-      "silver": 3,
-      "bronze": 2,
-      "total": 9,
+      "silver": 4,
+      "bronze": 3,
+      "total": 11,
       "is_eu": true
     },
     {
@@ -186,6 +186,18 @@
     },
     {
       "rank": 16,
+      "country": "Great Britain",
+      "noc": "GBR",
+      "iso2": "GB",
+      "flag_url": "https://flagcdn.com/w40/gb.png",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 0,
+      "total": 1,
+      "is_eu": false
+    },
+    {
+      "rank": 17,
       "country": "Canada",
       "noc": "CAN",
       "iso2": "CA",
@@ -197,7 +209,7 @@
       "is_eu": false
     },
     {
-      "rank": 17,
+      "rank": 18,
       "country": "People's Republic of China",
       "noc": "CHN",
       "iso2": "CN",
@@ -209,7 +221,7 @@
       "is_eu": false
     },
     {
-      "rank": 18,
+      "rank": 19,
       "country": "Poland",
       "noc": "POL",
       "iso2": "PL",
@@ -221,7 +233,7 @@
       "is_eu": true
     },
     {
-      "rank": 19,
+      "rank": 20,
       "country": "New Zealand",
       "noc": "NZL",
       "iso2": "NZ",
@@ -233,7 +245,7 @@
       "is_eu": false
     },
     {
-      "rank": 20,
+      "rank": 21,
       "country": "Latvia",
       "noc": "LAT",
       "iso2": "LV",
@@ -245,7 +257,7 @@
       "is_eu": true
     },
     {
-      "rank": 21,
+      "rank": 22,
       "country": "Bulgaria",
       "noc": "BUL",
       "iso2": "BG",
@@ -257,7 +269,7 @@
       "is_eu": true
     },
     {
-      "rank": 22,
+      "rank": 23,
       "country": "Belgium",
       "noc": "BEL",
       "iso2": "BE",
@@ -269,7 +281,7 @@
       "is_eu": true
     },
     {
-      "rank": 22,
+      "rank": 23,
       "country": "Finland",
       "noc": "FIN",
       "iso2": "FI",

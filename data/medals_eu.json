@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-02-14T14:51:14+00:00",
+  "last_updated_utc": "2026-02-14T16:53:12+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "source_revision_id": "W/\"1338329970/01409063-09b3-11f1-87a5-c53796662631/view/html\"",
-  "source_retrieved_at_utc": "2026-02-14T14:51:13+00:00",
+  "source_revision_id": "W/\"1338345433/3d7cf93f-09c5-11f1-a54c-b92a0c5ba0e3/view/html\"",
+  "source_retrieved_at_utc": "2026-02-14T16:53:11+00:00",
   "rows": [
     {
       "rank": 1,
@@ -11,9 +11,9 @@
       "iso2": "EU",
       "flag_url": "https://flagcdn.com/w40/eu.png",
       "gold": 27,
-      "silver": 32,
+      "silver": 33,
       "bronze": 24,
-      "total": 83,
+      "total": 84,
       "is_eu": true
     },
     {
@@ -46,10 +46,10 @@
       "noc": "USA",
       "iso2": "US",
       "flag_url": "https://flagcdn.com/w40/us.png",
-      "gold": 4,
+      "gold": 5,
       "silver": 8,
       "bronze": 4,
-      "total": 16,
+      "total": 17,
       "is_eu": false
     },
     {
@@ -114,6 +114,18 @@
     },
     {
       "rank": 10,
+      "country": "Netherlands",
+      "noc": "NED",
+      "iso2": "NL",
+      "flag_url": "https://flagcdn.com/w40/nl.png",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 1,
+      "total": 8,
+      "is_eu": true
+    },
+    {
+      "rank": 11,
       "country": "Japan",
       "noc": "JPN",
       "iso2": "JP",
@@ -123,18 +135,6 @@
       "bronze": 8,
       "total": 14,
       "is_eu": false
-    },
-    {
-      "rank": 11,
-      "country": "Netherlands",
-      "noc": "NED",
-      "iso2": "NL",
-      "flag_url": "https://flagcdn.com/w40/nl.png",
-      "gold": 3,
-      "silver": 3,
-      "bronze": 1,
-      "total": 7,
-      "is_eu": true
     },
     {
       "rank": 12,
@@ -228,8 +228,8 @@
       "flag_url": "https://flagcdn.com/w40/ca.png",
       "gold": 0,
       "silver": 3,
-      "bronze": 4,
-      "total": 7,
+      "bronze": 5,
+      "total": 8,
       "is_eu": false
     },
     {

@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-02-14T11:42:42+00:00",
+  "last_updated_utc": "2026-02-14T12:27:22+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "source_revision_id": "W/\"1338310994/042d89c7-0997-11f1-87d8-9946fd8cef6e/view/html\"",
-  "source_retrieved_at_utc": "2026-02-14T11:42:41+00:00",
+  "source_revision_id": "W/\"1338315962/4491123c-099f-11f1-bc34-8d72989e70a4/view/html\"",
+  "source_retrieved_at_utc": "2026-02-14T12:27:22+00:00",
   "rows": [
     {
       "rank": 1,
@@ -11,9 +11,9 @@
       "iso2": "EU",
       "flag_url": "https://flagcdn.com/w40/eu.png",
       "gold": 27,
-      "silver": 30,
-      "bronze": 22,
-      "total": 79,
+      "silver": 31,
+      "bronze": 23,
+      "total": 81,
       "is_eu": true
     },
     {
@@ -22,10 +22,10 @@
       "noc": "NOR",
       "iso2": "NO",
       "flag_url": "https://flagcdn.com/w40/no.png",
-      "gold": 8,
+      "gold": 9,
       "silver": 3,
       "bronze": 7,
-      "total": 18,
+      "total": 19,
       "is_eu": false
     },
     {
@@ -83,9 +83,9 @@
       "iso2": "SE",
       "flag_url": "https://flagcdn.com/w40/se.png",
       "gold": 4,
-      "silver": 3,
+      "silver": 4,
       "bronze": 1,
-      "total": 8,
+      "total": 9,
       "is_eu": true
     },
     {
@@ -281,23 +281,23 @@
       "is_eu": true
     },
     {
-      "rank": 24,
-      "country": "Belgium",
-      "noc": "BEL",
-      "iso2": "BE",
-      "flag_url": "https://flagcdn.com/w40/be.png",
-      "gold": 0,
-      "silver": 0,
-      "bronze": 1,
-      "total": 1,
-      "is_eu": true
-    },
-    {
-      "rank": 24,
+      "rank": 23,
       "country": "Finland",
       "noc": "FIN",
       "iso2": "FI",
       "flag_url": "https://flagcdn.com/w40/fi.png",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "total": 2,
+      "is_eu": true
+    },
+    {
+      "rank": 25,
+      "country": "Belgium",
+      "noc": "BEL",
+      "iso2": "BE",
+      "flag_url": "https://flagcdn.com/w40/be.png",
       "gold": 0,
       "silver": 0,
       "bronze": 1,

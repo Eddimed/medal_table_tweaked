@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-02-14T08:54:38+00:00",
+  "last_updated_utc": "2026-02-14T11:42:42+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "source_revision_id": "W/\"1338297612/0b9569e5-0980-11f1-895a-6f30e24ca633/view/html\"",
-  "source_retrieved_at_utc": "2026-02-14T08:54:37+00:00",
+  "source_revision_id": "W/\"1338310994/042d89c7-0997-11f1-87d8-9946fd8cef6e/view/html\"",
+  "source_retrieved_at_utc": "2026-02-14T11:42:41+00:00",
   "rows": [
     {
       "rank": 1,
@@ -47,9 +47,9 @@
       "iso2": "US",
       "flag_url": "https://flagcdn.com/w40/us.png",
       "gold": 4,
-      "silver": 7,
-      "bronze": 3,
-      "total": 14,
+      "silver": 8,
+      "bronze": 4,
+      "total": 16,
       "is_eu": false
     },
     {
@@ -138,6 +138,18 @@
     },
     {
       "rank": 12,
+      "country": "Australia",
+      "noc": "AUS",
+      "iso2": "AU",
+      "flag_url": "https://flagcdn.com/w40/au.png",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 0,
+      "total": 4,
+      "is_eu": false
+    },
+    {
+      "rank": 13,
       "country": "Czech Republic",
       "noc": "CZE",
       "iso2": "CZ",
@@ -147,18 +159,6 @@
       "bronze": 0,
       "total": 4,
       "is_eu": true
-    },
-    {
-      "rank": 13,
-      "country": "Australia",
-      "noc": "AUS",
-      "iso2": "AU",
-      "flag_url": "https://flagcdn.com/w40/au.png",
-      "gold": 2,
-      "silver": 1,
-      "bronze": 0,
-      "total": 3,
-      "is_eu": false
     },
     {
       "rank": 14,

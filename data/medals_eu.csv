@@ -1,11 +1,11 @@
 rank,country,noc,iso2,flag_url,gold,silver,bronze,total,is_eu
-1,European Union,EU27,EU,https://flagcdn.com/w40/eu.png,33,37,30,100,True
-2,Norway,NOR,NO,https://flagcdn.com/w40/no.png,12,5,8,25,False
+1,European Union,EU27,EU,https://flagcdn.com/w40/eu.png,32,37,30,99,True
+2,Norway,NOR,NO,https://flagcdn.com/w40/no.png,11,5,7,23,False
 3,Italy,ITA,IT,https://flagcdn.com/w40/it.png,7,4,10,21,True
-4,Sweden,SWE,SE,https://flagcdn.com/w40/se.png,6,5,1,12,True
-5,United States,USA,US,https://flagcdn.com/w40/us.png,5,8,4,17,False
-6,France,FRA,FR,https://flagcdn.com/w40/fr.png,4,7,3,14,True
-7,Austria,AUT,AT,https://flagcdn.com/w40/at.png,4,6,4,14,True
+4,United States,USA,US,https://flagcdn.com/w40/us.png,5,8,4,17,False
+5,Sweden,SWE,SE,https://flagcdn.com/w40/se.png,5,5,1,11,True
+6,France,FRA,FR,https://flagcdn.com/w40/fr.png,4,7,4,15,True
+7,Austria,AUT,AT,https://flagcdn.com/w40/at.png,4,6,3,13,True
 8,Germany,GER,DE,https://flagcdn.com/w40/de.png,4,5,4,13,True
 9,Netherlands,NED,NL,https://flagcdn.com/w40/nl.png,4,4,1,9,True
 10,Switzerland,SUI,CH,https://flagcdn.com/w40/ch.png,4,2,3,9,False
@@ -13,11 +13,11 @@ rank,country,noc,iso2,flag_url,gold,silver,bronze,total,is_eu
 12,Australia,AUS,AU,https://flagcdn.com/w40/au.png,3,1,1,5,False
 13,Czech Republic,CZE,CZ,https://flagcdn.com/w40/cz.png,2,2,0,4,True
 14,Slovenia,SLO,SI,https://flagcdn.com/w40/si.png,2,1,0,3,True
-15,Canada,CAN,CA,https://flagcdn.com/w40/ca.png,1,3,5,9,False
-16,South Korea,KOR,KR,https://flagcdn.com/w40/kr.png,1,2,2,5,False
-17,Brazil,BRA,BR,https://flagcdn.com/w40/br.png,1,0,0,1,False
-17,Great Britain,GBR,GB,https://flagcdn.com/w40/gb.png,1,0,0,1,False
-17,Kazakhstan,KAZ,KZ,https://flagcdn.com/w40/kz.png,1,0,0,1,False
+15,Great Britain,GBR,GB,https://flagcdn.com/w40/gb.png,2,0,0,2,False
+16,Canada,CAN,CA,https://flagcdn.com/w40/ca.png,1,3,5,9,False
+17,South Korea,KOR,KR,https://flagcdn.com/w40/kr.png,1,2,2,5,False
+18,Brazil,BRA,BR,https://flagcdn.com/w40/br.png,1,0,0,1,False
+18,Kazakhstan,KAZ,KZ,https://flagcdn.com/w40/kz.png,1,0,0,1,False
 20,People's Republic of China,CHN,CN,https://flagcdn.com/w40/cn.png,0,2,2,4,False
 21,Poland,POL,PL,https://flagcdn.com/w40/pl.png,0,2,1,3,True
 22,Latvia,LAT,LV,https://flagcdn.com/w40/lv.png,0,1,1,2,True

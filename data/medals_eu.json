@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-02-15T13:27:18+00:00",
+  "last_updated_utc": "2026-02-15T13:59:44+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "source_revision_id": "W/\"1338491591/06b0e696-0a72-11f1-a970-b32f4520ee77/view/html\"",
-  "source_retrieved_at_utc": "2026-02-15T13:27:18+00:00",
+  "source_revision_id": "W/\"1338494607/4d084974-0a76-11f1-80b1-5d1919440431/view/html\"",
+  "source_retrieved_at_utc": "2026-02-15T13:59:43+00:00",
   "rows": [
     {
       "rank": 1,
@@ -10,10 +10,10 @@
       "noc": "EU27",
       "iso2": "EU",
       "flag_url": "https://flagcdn.com/w40/eu.png",
-      "gold": 33,
+      "gold": 32,
       "silver": 37,
       "bronze": 30,
-      "total": 100,
+      "total": 99,
       "is_eu": true
     },
     {
@@ -22,10 +22,10 @@
       "noc": "NOR",
       "iso2": "NO",
       "flag_url": "https://flagcdn.com/w40/no.png",
-      "gold": 12,
+      "gold": 11,
       "silver": 5,
-      "bronze": 8,
-      "total": 25,
+      "bronze": 7,
+      "total": 23,
       "is_eu": false
     },
     {
@@ -42,18 +42,6 @@
     },
     {
       "rank": 4,
-      "country": "Sweden",
-      "noc": "SWE",
-      "iso2": "SE",
-      "flag_url": "https://flagcdn.com/w40/se.png",
-      "gold": 6,
-      "silver": 5,
-      "bronze": 1,
-      "total": 12,
-      "is_eu": true
-    },
-    {
-      "rank": 5,
       "country": "United States",
       "noc": "USA",
       "iso2": "US",
@@ -65,6 +53,18 @@
       "is_eu": false
     },
     {
+      "rank": 5,
+      "country": "Sweden",
+      "noc": "SWE",
+      "iso2": "SE",
+      "flag_url": "https://flagcdn.com/w40/se.png",
+      "gold": 5,
+      "silver": 5,
+      "bronze": 1,
+      "total": 11,
+      "is_eu": true
+    },
+    {
       "rank": 6,
       "country": "France",
       "noc": "FRA",
@@ -72,8 +72,8 @@
       "flag_url": "https://flagcdn.com/w40/fr.png",
       "gold": 4,
       "silver": 7,
-      "bronze": 3,
-      "total": 14,
+      "bronze": 4,
+      "total": 15,
       "is_eu": true
     },
     {
@@ -84,8 +84,8 @@
       "flag_url": "https://flagcdn.com/w40/at.png",
       "gold": 4,
       "silver": 6,
-      "bronze": 4,
-      "total": 14,
+      "bronze": 3,
+      "total": 13,
       "is_eu": true
     },
     {
@@ -174,6 +174,18 @@
     },
     {
       "rank": 15,
+      "country": "Great Britain",
+      "noc": "GBR",
+      "iso2": "GB",
+      "flag_url": "https://flagcdn.com/w40/gb.png",
+      "gold": 2,
+      "silver": 0,
+      "bronze": 0,
+      "total": 2,
+      "is_eu": false
+    },
+    {
+      "rank": 16,
       "country": "Canada",
       "noc": "CAN",
       "iso2": "CA",
@@ -185,7 +197,7 @@
       "is_eu": false
     },
     {
-      "rank": 16,
+      "rank": 17,
       "country": "South Korea",
       "noc": "KOR",
       "iso2": "KR",
@@ -197,7 +209,7 @@
       "is_eu": false
     },
     {
-      "rank": 17,
+      "rank": 18,
       "country": "Brazil",
       "noc": "BRA",
       "iso2": "BR",
@@ -209,19 +221,7 @@
       "is_eu": false
     },
     {
-      "rank": 17,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso2": "GB",
-      "flag_url": "https://flagcdn.com/w40/gb.png",
-      "gold": 1,
-      "silver": 0,
-      "bronze": 0,
-      "total": 1,
-      "is_eu": false
-    },
-    {
-      "rank": 17,
+      "rank": 18,
       "country": "Kazakhstan",
       "noc": "KAZ",
       "iso2": "KZ",

@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-02-14T22:14:17+00:00",
+  "last_updated_utc": "2026-02-15T10:51:23+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "source_revision_id": "W/\"1338387482/f6f0c3ef-09ef-11f1-a1f2-319f7de47168/view/html\"",
-  "source_retrieved_at_utc": "2026-02-14T22:14:17+00:00",
+  "source_revision_id": "W/\"1338476580/bd559ceb-0a5b-11f1-92ea-fba908e22fc9/view/html\"",
+  "source_retrieved_at_utc": "2026-02-15T10:51:23+00:00",
   "rows": [
     {
       "rank": 1,
@@ -10,10 +10,10 @@
       "noc": "EU27",
       "iso2": "EU",
       "flag_url": "https://flagcdn.com/w40/eu.png",
-      "gold": 30,
+      "gold": 31,
       "silver": 34,
-      "bronze": 27,
-      "total": 91,
+      "bronze": 28,
+      "total": 93,
       "is_eu": true
     },
     {
@@ -23,9 +23,9 @@
       "iso2": "NO",
       "flag_url": "https://flagcdn.com/w40/no.png",
       "gold": 10,
-      "silver": 3,
+      "silver": 4,
       "bronze": 7,
-      "total": 20,
+      "total": 21,
       "is_eu": false
     },
     {
@@ -54,6 +54,18 @@
     },
     {
       "rank": 5,
+      "country": "Sweden",
+      "noc": "SWE",
+      "iso2": "SE",
+      "flag_url": "https://flagcdn.com/w40/se.png",
+      "gold": 5,
+      "silver": 4,
+      "bronze": 1,
+      "total": 10,
+      "is_eu": true
+    },
+    {
+      "rank": 6,
       "country": "Austria",
       "noc": "AUT",
       "iso2": "AT",
@@ -72,12 +84,12 @@
       "flag_url": "https://flagcdn.com/w40/fr.png",
       "gold": 4,
       "silver": 6,
-      "bronze": 2,
-      "total": 12,
+      "bronze": 3,
+      "total": 13,
       "is_eu": true
     },
     {
-      "rank": 7,
+      "rank": 8,
       "country": "Germany",
       "noc": "GER",
       "iso2": "DE",
@@ -89,23 +101,11 @@
       "is_eu": true
     },
     {
-      "rank": 8,
+      "rank": 9,
       "country": "Netherlands",
       "noc": "NED",
       "iso2": "NL",
       "flag_url": "https://flagcdn.com/w40/nl.png",
-      "gold": 4,
-      "silver": 4,
-      "bronze": 1,
-      "total": 9,
-      "is_eu": true
-    },
-    {
-      "rank": 8,
-      "country": "Sweden",
-      "noc": "SWE",
-      "iso2": "SE",
-      "flag_url": "https://flagcdn.com/w40/se.png",
       "gold": 4,
       "silver": 4,
       "bronze": 1,

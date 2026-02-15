@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-02-15T16:54:07+00:00",
+  "last_updated_utc": "2026-02-15T18:59:41+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "source_revision_id": "W/\"1338514683/41c11839-0a8e-11f1-87db-c103439ad370/view/html\"",
-  "source_retrieved_at_utc": "2026-02-15T16:54:07+00:00",
+  "source_revision_id": "W/\"1338529410/fb26ed81-0a9c-11f1-b602-f9e7328606ad/view/html\"",
+  "source_retrieved_at_utc": "2026-02-15T18:59:41+00:00",
   "rows": [
     {
       "rank": 1,
@@ -11,9 +11,9 @@
       "iso2": "EU",
       "flag_url": "https://flagcdn.com/w40/eu.png",
       "gold": 34,
-      "silver": 38,
-      "bronze": 31,
-      "total": 103,
+      "silver": 39,
+      "bronze": 32,
+      "total": 105,
       "is_eu": true
     },
     {
@@ -90,6 +90,18 @@
     },
     {
       "rank": 8,
+      "country": "Germany",
+      "noc": "GER",
+      "iso2": "DE",
+      "flag_url": "https://flagcdn.com/w40/de.png",
+      "gold": 4,
+      "silver": 6,
+      "bronze": 5,
+      "total": 15,
+      "is_eu": true
+    },
+    {
+      "rank": 9,
       "country": "Austria",
       "noc": "AUT",
       "iso2": "AT",
@@ -97,18 +109,6 @@
       "gold": 4,
       "silver": 6,
       "bronze": 3,
-      "total": 13,
-      "is_eu": true
-    },
-    {
-      "rank": 9,
-      "country": "Germany",
-      "noc": "GER",
-      "iso2": "DE",
-      "flag_url": "https://flagcdn.com/w40/de.png",
-      "gold": 4,
-      "silver": 5,
-      "bronze": 4,
       "total": 13,
       "is_eu": true
     },
@@ -150,6 +150,18 @@
     },
     {
       "rank": 13,
+      "country": "Great Britain",
+      "noc": "GBR",
+      "iso2": "GB",
+      "flag_url": "https://flagcdn.com/w40/gb.png",
+      "gold": 3,
+      "silver": 0,
+      "bronze": 0,
+      "total": 3,
+      "is_eu": false
+    },
+    {
+      "rank": 14,
       "country": "Czech Republic",
       "noc": "CZE",
       "iso2": "CZ",
@@ -161,7 +173,7 @@
       "is_eu": true
     },
     {
-      "rank": 14,
+      "rank": 15,
       "country": "Slovenia",
       "noc": "SLO",
       "iso2": "SI",
@@ -171,18 +183,6 @@
       "bronze": 0,
       "total": 3,
       "is_eu": true
-    },
-    {
-      "rank": 15,
-      "country": "Great Britain",
-      "noc": "GBR",
-      "iso2": "GB",
-      "flag_url": "https://flagcdn.com/w40/gb.png",
-      "gold": 2,
-      "silver": 0,
-      "bronze": 0,
-      "total": 2,
-      "is_eu": false
     },
     {
       "rank": 16,

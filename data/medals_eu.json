@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-02-15T13:59:44+00:00",
+  "last_updated_utc": "2026-02-15T14:31:05+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "source_revision_id": "W/\"1338494607/4d084974-0a76-11f1-80b1-5d1919440431/view/html\"",
-  "source_retrieved_at_utc": "2026-02-15T13:59:43+00:00",
+  "source_revision_id": "W/\"1338496852/4d561326-0a79-11f1-a23f-6b3238ff2420/view/html\"",
+  "source_retrieved_at_utc": "2026-02-15T14:31:04+00:00",
   "rows": [
     {
       "rank": 1,
@@ -10,10 +10,10 @@
       "noc": "EU27",
       "iso2": "EU",
       "flag_url": "https://flagcdn.com/w40/eu.png",
-      "gold": 32,
+      "gold": 33,
       "silver": 37,
-      "bronze": 30,
-      "total": 99,
+      "bronze": 31,
+      "total": 101,
       "is_eu": true
     },
     {
@@ -23,9 +23,9 @@
       "iso2": "NO",
       "flag_url": "https://flagcdn.com/w40/no.png",
       "gold": 11,
-      "silver": 5,
+      "silver": 6,
       "bronze": 7,
-      "total": 23,
+      "total": 24,
       "is_eu": false
     },
     {
@@ -34,10 +34,10 @@
       "noc": "ITA",
       "iso2": "IT",
       "flag_url": "https://flagcdn.com/w40/it.png",
-      "gold": 7,
+      "gold": 8,
       "silver": 4,
       "bronze": 10,
-      "total": 21,
+      "total": 22,
       "is_eu": true
     },
     {
@@ -282,22 +282,22 @@
     },
     {
       "rank": 24,
-      "country": "Bulgaria",
-      "noc": "BUL",
-      "iso2": "BG",
-      "flag_url": "https://flagcdn.com/w40/bg.png",
-      "gold": 0,
-      "silver": 0,
-      "bronze": 2,
-      "total": 2,
-      "is_eu": true
-    },
-    {
-      "rank": 24,
       "country": "Finland",
       "noc": "FIN",
       "iso2": "FI",
       "flag_url": "https://flagcdn.com/w40/fi.png",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 3,
+      "total": 3,
+      "is_eu": true
+    },
+    {
+      "rank": 25,
+      "country": "Bulgaria",
+      "noc": "BUL",
+      "iso2": "BG",
+      "flag_url": "https://flagcdn.com/w40/bg.png",
       "gold": 0,
       "silver": 0,
       "bronze": 2,

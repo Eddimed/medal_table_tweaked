@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-02-15T12:29:12+00:00",
+  "last_updated_utc": "2026-02-15T13:27:18+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "source_revision_id": "W/\"1338484305/bbdda364-0a66-11f1-9b00-d3fec6060162/view/html\"",
-  "source_retrieved_at_utc": "2026-02-15T12:29:11+00:00",
+  "source_revision_id": "W/\"1338491591/06b0e696-0a72-11f1-a970-b32f4520ee77/view/html\"",
+  "source_retrieved_at_utc": "2026-02-15T13:27:18+00:00",
   "rows": [
     {
       "rank": 1,
@@ -10,10 +10,10 @@
       "noc": "EU27",
       "iso2": "EU",
       "flag_url": "https://flagcdn.com/w40/eu.png",
-      "gold": 31,
-      "silver": 35,
-      "bronze": 29,
-      "total": 95,
+      "gold": 33,
+      "silver": 37,
+      "bronze": 30,
+      "total": 100,
       "is_eu": true
     },
     {
@@ -22,10 +22,10 @@
       "noc": "NOR",
       "iso2": "NO",
       "flag_url": "https://flagcdn.com/w40/no.png",
-      "gold": 11,
-      "silver": 4,
-      "bronze": 7,
-      "total": 22,
+      "gold": 12,
+      "silver": 5,
+      "bronze": 8,
+      "total": 25,
       "is_eu": false
     },
     {
@@ -34,14 +34,26 @@
       "noc": "ITA",
       "iso2": "IT",
       "flag_url": "https://flagcdn.com/w40/it.png",
-      "gold": 6,
-      "silver": 3,
+      "gold": 7,
+      "silver": 4,
       "bronze": 10,
-      "total": 19,
+      "total": 21,
       "is_eu": true
     },
     {
       "rank": 4,
+      "country": "Sweden",
+      "noc": "SWE",
+      "iso2": "SE",
+      "flag_url": "https://flagcdn.com/w40/se.png",
+      "gold": 6,
+      "silver": 5,
+      "bronze": 1,
+      "total": 12,
+      "is_eu": true
+    },
+    {
+      "rank": 5,
       "country": "United States",
       "noc": "USA",
       "iso2": "US",
@@ -51,18 +63,6 @@
       "bronze": 4,
       "total": 17,
       "is_eu": false
-    },
-    {
-      "rank": 5,
-      "country": "Sweden",
-      "noc": "SWE",
-      "iso2": "SE",
-      "flag_url": "https://flagcdn.com/w40/se.png",
-      "gold": 5,
-      "silver": 4,
-      "bronze": 1,
-      "total": 10,
-      "is_eu": true
     },
     {
       "rank": 6,
@@ -84,8 +84,8 @@
       "flag_url": "https://flagcdn.com/w40/at.png",
       "gold": 4,
       "silver": 6,
-      "bronze": 3,
-      "total": 13,
+      "bronze": 4,
+      "total": 14,
       "is_eu": true
     },
     {

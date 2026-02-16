@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-02-16T21:50:26+00:00",
+  "last_updated_utc": "2026-02-16T22:18:20+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "source_revision_id": "W/\"1338725945/643361a8-0b80-11f1-93ec-c5a34db1e388/view/html\"",
-  "source_retrieved_at_utc": "2026-02-16T21:50:26+00:00",
+  "source_revision_id": "W/\"1338729904/ca6db1cd-0b83-11f1-8eb0-57f4e849e742/view/html\"",
+  "source_retrieved_at_utc": "2026-02-16T22:18:20+00:00",
   "rows": [
     {
       "rank": 1,
@@ -12,8 +12,8 @@
       "flag_url": "https://flagcdn.com/w40/eu.png",
       "gold": 36,
       "silver": 42,
-      "bronze": 34,
-      "total": 112,
+      "bronze": 35,
+      "total": 113,
       "is_eu": true
     },
     {
@@ -108,8 +108,8 @@
       "flag_url": "https://flagcdn.com/w40/de.png",
       "gold": 4,
       "silver": 7,
-      "bronze": 5,
-      "total": 16,
+      "bronze": 6,
+      "total": 17,
       "is_eu": true
     },
     {
@@ -130,10 +130,10 @@
       "noc": "JPN",
       "iso2": "JP",
       "flag_url": "https://flagcdn.com/w40/jp.png",
-      "gold": 3,
+      "gold": 4,
       "silver": 5,
       "bronze": 9,
-      "total": 17,
+      "total": 18,
       "is_eu": false
     },
     {
@@ -282,6 +282,18 @@
     },
     {
       "rank": 24,
+      "country": "Georgia",
+      "noc": "GEO",
+      "iso2": "GE",
+      "flag_url": "https://flagcdn.com/w40/ge.png",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1,
+      "is_eu": false
+    },
+    {
+      "rank": 25,
       "country": "Finland",
       "noc": "FIN",
       "iso2": "FI",
@@ -293,7 +305,7 @@
       "is_eu": true
     },
     {
-      "rank": 25,
+      "rank": 26,
       "country": "Bulgaria",
       "noc": "BUL",
       "iso2": "BG",
@@ -305,7 +317,7 @@
       "is_eu": true
     },
     {
-      "rank": 26,
+      "rank": 27,
       "country": "Belgium",
       "noc": "BEL",
       "iso2": "BE",

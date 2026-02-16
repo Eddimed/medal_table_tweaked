@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-02-15T20:48:23+00:00",
+  "last_updated_utc": "2026-02-16T12:40:25+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "source_revision_id": "W/\"1338545338/1994e02f-0aad-11f1-9123-89a78b1947e7/view/html\"",
-  "source_retrieved_at_utc": "2026-02-15T20:48:23+00:00",
+  "source_revision_id": "W/\"1338650262/eb59dadd-0b32-11f1-8425-0f48aa427ab4/view/html\"",
+  "source_retrieved_at_utc": "2026-02-16T12:40:24+00:00",
   "rows": [
     {
       "rank": 1,
@@ -10,10 +10,10 @@
       "noc": "EU27",
       "iso2": "EU",
       "flag_url": "https://flagcdn.com/w40/eu.png",
-      "gold": 34,
+      "gold": 35,
       "silver": 39,
       "bronze": 33,
-      "total": 106,
+      "total": 107,
       "is_eu": true
     },
     {
@@ -42,6 +42,18 @@
     },
     {
       "rank": 4,
+      "country": "Netherlands",
+      "noc": "NED",
+      "iso2": "NL",
+      "flag_url": "https://flagcdn.com/w40/nl.png",
+      "gold": 6,
+      "silver": 5,
+      "bronze": 1,
+      "total": 12,
+      "is_eu": true
+    },
+    {
+      "rank": 5,
       "country": "United States",
       "noc": "USA",
       "iso2": "US",
@@ -53,19 +65,7 @@
       "is_eu": false
     },
     {
-      "rank": 5,
-      "country": "Netherlands",
-      "noc": "NED",
-      "iso2": "NL",
-      "flag_url": "https://flagcdn.com/w40/nl.png",
-      "gold": 5,
-      "silver": 5,
-      "bronze": 1,
-      "total": 11,
-      "is_eu": true
-    },
-    {
-      "rank": 5,
+      "rank": 6,
       "country": "Sweden",
       "noc": "SWE",
       "iso2": "SE",
@@ -191,9 +191,9 @@
       "iso2": "CA",
       "flag_url": "https://flagcdn.com/w40/ca.png",
       "gold": 1,
-      "silver": 3,
+      "silver": 4,
       "bronze": 5,
-      "total": 9,
+      "total": 10,
       "is_eu": false
     },
     {
@@ -204,8 +204,8 @@
       "flag_url": "https://flagcdn.com/w40/kr.png",
       "gold": 1,
       "silver": 2,
-      "bronze": 2,
-      "total": 5,
+      "bronze": 3,
+      "total": 6,
       "is_eu": false
     },
     {

@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-02-16T20:20:06+00:00",
+  "last_updated_utc": "2026-02-16T20:53:29+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "source_revision_id": "W/\"1338711949/7e1a7071-0b73-11f1-af45-73326cd39ac4/view/html\"",
-  "source_retrieved_at_utc": "2026-02-16T20:20:06+00:00",
+  "source_revision_id": "W/\"1338716805/8628d784-0b78-11f1-99ab-31633a5ffd29/view/html\"",
+  "source_retrieved_at_utc": "2026-02-16T20:53:29+00:00",
   "rows": [
     {
       "rank": 1,
@@ -12,8 +12,8 @@
       "flag_url": "https://flagcdn.com/w40/eu.png",
       "gold": 36,
       "silver": 41,
-      "bronze": 33,
-      "total": 110,
+      "bronze": 34,
+      "total": 111,
       "is_eu": true
     },
     {
@@ -36,8 +36,8 @@
       "flag_url": "https://flagcdn.com/w40/it.png",
       "gold": 8,
       "silver": 4,
-      "bronze": 10,
-      "total": 22,
+      "bronze": 11,
+      "total": 23,
       "is_eu": true
     },
     {
@@ -162,6 +162,18 @@
     },
     {
       "rank": 14,
+      "country": "Canada",
+      "noc": "CAN",
+      "iso2": "CA",
+      "flag_url": "https://flagcdn.com/w40/ca.png",
+      "gold": 2,
+      "silver": 4,
+      "bronze": 5,
+      "total": 11,
+      "is_eu": false
+    },
+    {
+      "rank": 15,
       "country": "Czech Republic",
       "noc": "CZE",
       "iso2": "CZ",
@@ -173,7 +185,7 @@
       "is_eu": true
     },
     {
-      "rank": 15,
+      "rank": 16,
       "country": "Slovenia",
       "noc": "SLO",
       "iso2": "SI",
@@ -183,18 +195,6 @@
       "bronze": 1,
       "total": 4,
       "is_eu": true
-    },
-    {
-      "rank": 16,
-      "country": "Canada",
-      "noc": "CAN",
-      "iso2": "CA",
-      "flag_url": "https://flagcdn.com/w40/ca.png",
-      "gold": 1,
-      "silver": 4,
-      "bronze": 5,
-      "total": 10,
-      "is_eu": false
     },
     {
       "rank": 17,
@@ -234,6 +234,18 @@
     },
     {
       "rank": 20,
+      "country": "People's Republic of China",
+      "noc": "CHN",
+      "iso2": "CN",
+      "flag_url": "https://flagcdn.com/w40/cn.png",
+      "gold": 0,
+      "silver": 3,
+      "bronze": 2,
+      "total": 5,
+      "is_eu": false
+    },
+    {
+      "rank": 21,
       "country": "Poland",
       "noc": "POL",
       "iso2": "PL",
@@ -243,18 +255,6 @@
       "bronze": 1,
       "total": 4,
       "is_eu": true
-    },
-    {
-      "rank": 21,
-      "country": "People's Republic of China",
-      "noc": "CHN",
-      "iso2": "CN",
-      "flag_url": "https://flagcdn.com/w40/cn.png",
-      "gold": 0,
-      "silver": 2,
-      "bronze": 2,
-      "total": 4,
-      "is_eu": false
     },
     {
       "rank": 22,

@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-02-17T20:27:33+00:00",
+  "last_updated_utc": "2026-02-17T21:02:27+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "source_revision_id": "W/\"1338879933/1cbdcd27-0c3b-11f1-9420-1714566037dc/view/html\"",
-  "source_retrieved_at_utc": "2026-02-17T20:27:33+00:00",
+  "source_revision_id": "W/\"1338887586/74136c8b-0c42-11f1-807a-75ee3d0999e2/view/html\"",
+  "source_retrieved_at_utc": "2026-02-17T21:02:27+00:00",
   "rows": [
     {
       "rank": 1,
@@ -10,10 +10,10 @@
       "noc": "EU27",
       "iso2": "EU",
       "flag_url": "https://flagcdn.com/w40/eu.png",
-      "gold": 38,
-      "silver": 44,
-      "bronze": 38,
-      "total": 120,
+      "gold": 39,
+      "silver": 45,
+      "bronze": 39,
+      "total": 123,
       "is_eu": true
     },
     {
@@ -66,6 +66,18 @@
     },
     {
       "rank": 6,
+      "country": "Germany",
+      "noc": "GER",
+      "iso2": "DE",
+      "flag_url": "https://flagcdn.com/w40/de.png",
+      "gold": 5,
+      "silver": 8,
+      "bronze": 7,
+      "total": 20,
+      "is_eu": true
+    },
+    {
+      "rank": 7,
       "country": "Austria",
       "noc": "AUT",
       "iso2": "AT",
@@ -77,7 +89,7 @@
       "is_eu": true
     },
     {
-      "rank": 7,
+      "rank": 8,
       "country": "France",
       "noc": "FRA",
       "iso2": "FR",
@@ -89,7 +101,7 @@
       "is_eu": true
     },
     {
-      "rank": 8,
+      "rank": 9,
       "country": "Sweden",
       "noc": "SWE",
       "iso2": "SE",
@@ -101,7 +113,7 @@
       "is_eu": true
     },
     {
-      "rank": 9,
+      "rank": 10,
       "country": "Switzerland",
       "noc": "SUI",
       "iso2": "CH",
@@ -111,18 +123,6 @@
       "bronze": 3,
       "total": 10,
       "is_eu": false
-    },
-    {
-      "rank": 10,
-      "country": "Germany",
-      "noc": "GER",
-      "iso2": "DE",
-      "flag_url": "https://flagcdn.com/w40/de.png",
-      "gold": 4,
-      "silver": 7,
-      "bronze": 6,
-      "total": 17,
-      "is_eu": true
     },
     {
       "rank": 11,

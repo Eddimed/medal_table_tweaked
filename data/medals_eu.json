@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-02-18T20:29:35+00:00",
+  "last_updated_utc": "2026-02-18T21:04:48+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "source_revision_id": "W/\"1339065845/ccf817a0-0d05-11f1-9767-6958d8cad681/view/html\"",
-  "source_retrieved_at_utc": "2026-02-18T20:29:35+00:00",
+  "source_revision_id": "W/\"1339071978/cec3d071-0d09-11f1-a7ad-6b94ccd78fab/view/html\"",
+  "source_retrieved_at_utc": "2026-02-18T21:04:48+00:00",
   "rows": [
     {
       "rank": 1,
@@ -11,9 +11,9 @@
       "iso2": "EU",
       "flag_url": "https://flagcdn.com/w40/eu.png",
       "gold": 41,
-      "silver": 47,
-      "bronze": 42,
-      "total": 130,
+      "silver": 48,
+      "bronze": 43,
+      "total": 132,
       "is_eu": true
     },
     {
@@ -66,6 +66,18 @@
     },
     {
       "rank": 6,
+      "country": "Netherlands",
+      "noc": "NED",
+      "iso2": "NL",
+      "flag_url": "https://flagcdn.com/w40/nl.png",
+      "gold": 6,
+      "silver": 7,
+      "bronze": 2,
+      "total": 15,
+      "is_eu": true
+    },
+    {
+      "rank": 7,
       "country": "Sweden",
       "noc": "SWE",
       "iso2": "SE",
@@ -74,18 +86,6 @@
       "silver": 6,
       "bronze": 3,
       "total": 15,
-      "is_eu": true
-    },
-    {
-      "rank": 7,
-      "country": "Netherlands",
-      "noc": "NED",
-      "iso2": "NL",
-      "flag_url": "https://flagcdn.com/w40/nl.png",
-      "gold": 6,
-      "silver": 6,
-      "bronze": 1,
-      "total": 13,
       "is_eu": true
     },
     {
@@ -142,10 +142,10 @@
       "noc": "CAN",
       "iso2": "CA",
       "flag_url": "https://flagcdn.com/w40/ca.png",
-      "gold": 3,
+      "gold": 4,
       "silver": 4,
       "bronze": 6,
-      "total": 13,
+      "total": 14,
       "is_eu": false
     },
     {

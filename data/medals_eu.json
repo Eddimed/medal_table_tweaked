@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-02-18T09:37:47+00:00",
+  "last_updated_utc": "2026-02-18T11:32:30+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "source_revision_id": "W/\"1338887586/ac4c980c-0ca6-11f1-b091-3b9e942e20dc/view/html\"",
-  "source_retrieved_at_utc": "2026-02-18T09:37:47+00:00",
+  "source_revision_id": "W/\"1338992972/0014b52d-0cba-11f1-98aa-b93b225a60a3/view/html\"",
+  "source_retrieved_at_utc": "2026-02-18T11:32:30+00:00",
   "rows": [
     {
       "rank": 1,
@@ -10,10 +10,10 @@
       "noc": "EU27",
       "iso2": "EU",
       "flag_url": "https://flagcdn.com/w40/eu.png",
-      "gold": 39,
+      "gold": 40,
       "silver": 45,
-      "bronze": 39,
-      "total": 123,
+      "bronze": 40,
+      "total": 125,
       "is_eu": true
     },
     {
@@ -66,18 +66,30 @@
     },
     {
       "rank": 6,
+      "country": "Sweden",
+      "noc": "SWE",
+      "iso2": "SE",
+      "flag_url": "https://flagcdn.com/w40/se.png",
+      "gold": 6,
+      "silver": 5,
+      "bronze": 2,
+      "total": 13,
+      "is_eu": true
+    },
+    {
+      "rank": 7,
       "country": "Germany",
       "noc": "GER",
       "iso2": "DE",
       "flag_url": "https://flagcdn.com/w40/de.png",
       "gold": 5,
       "silver": 8,
-      "bronze": 7,
-      "total": 20,
+      "bronze": 8,
+      "total": 21,
       "is_eu": true
     },
     {
-      "rank": 7,
+      "rank": 8,
       "country": "Austria",
       "noc": "AUT",
       "iso2": "AT",
@@ -89,7 +101,7 @@
       "is_eu": true
     },
     {
-      "rank": 8,
+      "rank": 9,
       "country": "France",
       "noc": "FRA",
       "iso2": "FR",
@@ -101,27 +113,15 @@
       "is_eu": true
     },
     {
-      "rank": 9,
-      "country": "Sweden",
-      "noc": "SWE",
-      "iso2": "SE",
-      "flag_url": "https://flagcdn.com/w40/se.png",
-      "gold": 5,
-      "silver": 5,
-      "bronze": 2,
-      "total": 12,
-      "is_eu": true
-    },
-    {
       "rank": 10,
       "country": "Switzerland",
       "noc": "SUI",
       "iso2": "CH",
       "flag_url": "https://flagcdn.com/w40/ch.png",
       "gold": 5,
-      "silver": 2,
+      "silver": 3,
       "bronze": 3,
-      "total": 10,
+      "total": 11,
       "is_eu": false
     },
     {

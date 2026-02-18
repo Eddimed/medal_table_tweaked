@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-02-18T11:32:30+00:00",
+  "last_updated_utc": "2026-02-18T12:39:56+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "source_revision_id": "W/\"1338992972/0014b52d-0cba-11f1-98aa-b93b225a60a3/view/html\"",
-  "source_retrieved_at_utc": "2026-02-18T11:32:30+00:00",
+  "source_revision_id": "W/\"1338997285/b7142617-0cc0-11f1-8aa6-c556ee191ee3/view/html\"",
+  "source_retrieved_at_utc": "2026-02-18T12:39:55+00:00",
   "rows": [
     {
       "rank": 1,
@@ -12,8 +12,8 @@
       "flag_url": "https://flagcdn.com/w40/eu.png",
       "gold": 40,
       "silver": 45,
-      "bronze": 40,
-      "total": 125,
+      "bronze": 41,
+      "total": 126,
       "is_eu": true
     },
     {
@@ -22,10 +22,10 @@
       "noc": "NOR",
       "iso2": "NO",
       "flag_url": "https://flagcdn.com/w40/no.png",
-      "gold": 14,
+      "gold": 15,
       "silver": 8,
       "bronze": 9,
-      "total": 31,
+      "total": 32,
       "is_eu": false
     },
     {
@@ -36,8 +36,8 @@
       "flag_url": "https://flagcdn.com/w40/it.png",
       "gold": 9,
       "silver": 4,
-      "bronze": 11,
-      "total": 24,
+      "bronze": 12,
+      "total": 25,
       "is_eu": true
     },
     {
@@ -47,9 +47,9 @@
       "iso2": "US",
       "flag_url": "https://flagcdn.com/w40/us.png",
       "gold": 6,
-      "silver": 10,
-      "bronze": 5,
-      "total": 21,
+      "silver": 11,
+      "bronze": 6,
+      "total": 23,
       "is_eu": false
     },
     {
@@ -131,9 +131,9 @@
       "iso2": "JP",
       "flag_url": "https://flagcdn.com/w40/jp.png",
       "gold": 4,
-      "silver": 5,
+      "silver": 6,
       "bronze": 10,
-      "total": 19,
+      "total": 20,
       "is_eu": false
     },
     {
@@ -198,6 +198,18 @@
     },
     {
       "rank": 17,
+      "country": "People's Republic of China",
+      "noc": "CHN",
+      "iso2": "CN",
+      "flag_url": "https://flagcdn.com/w40/cn.png",
+      "gold": 1,
+      "silver": 3,
+      "bronze": 3,
+      "total": 7,
+      "is_eu": false
+    },
+    {
+      "rank": 18,
       "country": "South Korea",
       "noc": "KOR",
       "iso2": "KR",
@@ -209,7 +221,7 @@
       "is_eu": false
     },
     {
-      "rank": 18,
+      "rank": 19,
       "country": "Brazil",
       "noc": "BRA",
       "iso2": "BR",
@@ -221,7 +233,7 @@
       "is_eu": false
     },
     {
-      "rank": 18,
+      "rank": 19,
       "country": "Kazakhstan",
       "noc": "KAZ",
       "iso2": "KZ",
@@ -230,18 +242,6 @@
       "silver": 0,
       "bronze": 0,
       "total": 1,
-      "is_eu": false
-    },
-    {
-      "rank": 20,
-      "country": "People's Republic of China",
-      "noc": "CHN",
-      "iso2": "CN",
-      "flag_url": "https://flagcdn.com/w40/cn.png",
-      "gold": 0,
-      "silver": 3,
-      "bronze": 3,
-      "total": 6,
       "is_eu": false
     },
     {

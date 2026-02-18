@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-02-18T15:10:17+00:00",
+  "last_updated_utc": "2026-02-18T20:29:35+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "source_revision_id": "W/\"1339018858/18e18753-0cdb-11f1-8502-31178a3dfe37/view/html\"",
-  "source_retrieved_at_utc": "2026-02-18T15:10:17+00:00",
+  "source_revision_id": "W/\"1339065845/ccf817a0-0d05-11f1-9767-6958d8cad681/view/html\"",
+  "source_retrieved_at_utc": "2026-02-18T20:29:35+00:00",
   "rows": [
     {
       "rank": 1,
@@ -11,9 +11,9 @@
       "iso2": "EU",
       "flag_url": "https://flagcdn.com/w40/eu.png",
       "gold": 41,
-      "silver": 46,
+      "silver": 47,
       "bronze": 42,
-      "total": 129,
+      "total": 130,
       "is_eu": true
     },
     {
@@ -35,9 +35,9 @@
       "iso2": "IT",
       "flag_url": "https://flagcdn.com/w40/it.png",
       "gold": 9,
-      "silver": 4,
+      "silver": 5,
       "bronze": 12,
-      "total": 25,
+      "total": 26,
       "is_eu": true
     },
     {
@@ -144,8 +144,8 @@
       "flag_url": "https://flagcdn.com/w40/ca.png",
       "gold": 3,
       "silver": 4,
-      "bronze": 5,
-      "total": 12,
+      "bronze": 6,
+      "total": 13,
       "is_eu": false
     },
     {
@@ -186,6 +186,18 @@
     },
     {
       "rank": 16,
+      "country": "South Korea",
+      "noc": "KOR",
+      "iso2": "KR",
+      "flag_url": "https://flagcdn.com/w40/kr.png",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 3,
+      "total": 7,
+      "is_eu": false
+    },
+    {
+      "rank": 17,
       "country": "Czech Republic",
       "noc": "CZE",
       "iso2": "CZ",
@@ -197,7 +209,7 @@
       "is_eu": true
     },
     {
-      "rank": 17,
+      "rank": 18,
       "country": "Slovenia",
       "noc": "SLO",
       "iso2": "SI",
@@ -207,18 +219,6 @@
       "bronze": 1,
       "total": 4,
       "is_eu": true
-    },
-    {
-      "rank": 18,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso2": "KR",
-      "flag_url": "https://flagcdn.com/w40/kr.png",
-      "gold": 1,
-      "silver": 2,
-      "bronze": 3,
-      "total": 6,
-      "is_eu": false
     },
     {
       "rank": 19,

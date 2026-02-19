@@ -2,7 +2,7 @@ rank,country,noc,iso2,flag_url,gold,silver,bronze,total,is_eu
 1,European Union,EU27,EU,https://flagcdn.com/w40/eu.png,42,50,47,139,True
 2,Norway,NOR,NO,https://flagcdn.com/w40/no.png,16,8,10,34,False
 3,Italy,ITA,IT,https://flagcdn.com/w40/it.png,9,5,12,26,True
-4,United States,USA,US,https://flagcdn.com/w40/us.png,7,12,6,25,False
+4,United States,USA,US,https://flagcdn.com/w40/us.png,8,12,6,26,False
 5,France,FRA,FR,https://flagcdn.com/w40/fr.png,6,8,5,19,True
 6,Netherlands,NED,NL,https://flagcdn.com/w40/nl.png,6,7,3,16,True
 7,Sweden,SWE,SE,https://flagcdn.com/w40/se.png,6,6,3,15,True
@@ -10,7 +10,7 @@ rank,country,noc,iso2,flag_url,gold,silver,bronze,total,is_eu
 9,Germany,GER,DE,https://flagcdn.com/w40/de.png,5,8,8,21,True
 10,Austria,AUT,AT,https://flagcdn.com/w40/at.png,5,8,5,18,True
 11,Japan,JPN,JP,https://flagcdn.com/w40/jp.png,5,6,11,22,False
-12,Canada,CAN,CA,https://flagcdn.com/w40/ca.png,4,4,6,14,False
+12,Canada,CAN,CA,https://flagcdn.com/w40/ca.png,4,5,6,15,False
 13,People's Republic of China,CHN,CN,https://flagcdn.com/w40/cn.png,3,3,4,10,False
 14,Australia,AUS,AU,https://flagcdn.com/w40/au.png,3,2,1,6,False
 15,Great Britain,GBR,GB,https://flagcdn.com/w40/gb.png,3,0,0,3,False

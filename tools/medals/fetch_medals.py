@@ -41,6 +41,14 @@ NAME_OVERRIDES = {
     "Curaçao": "Curacao",
 }
 
+NOC_OVERRIDES = {
+    "Individual Neutral Athletes": "AIN",
+}
+
+FLAG_URL_OVERRIDES = {
+    "AIN": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Individual_Neutral_Athletes_at_the_2024_Summer_Olympics.svg",
+}
+
 ISO2_OVERRIDES = {
     "EU27": "EU",
     "EU": "EU",
@@ -258,13 +266,17 @@ def parse_medal_table(html, name_to_noc, noc_to_name):
         if not noc or len(noc) != 3:
             noc = name_to_noc.get(name_key(country))
         if not noc:
+            noc = NOC_OVERRIDES.get(country)
+        if not noc:
             unmapped.append(country)
             continue
 
         country_name = noc_to_name.get(noc, country)
 
         iso2 = iso2_from_country(country_name)
-        flag_url = f"https://flagcdn.com/w40/{iso2.lower()}.png" if iso2 else None
+        flag_url = FLAG_URL_OVERRIDES.get(noc)
+        if not flag_url:
+            flag_url = f"https://flagcdn.com/w40/{iso2.lower()}.png" if iso2 else None
 
         rows.append(
             {

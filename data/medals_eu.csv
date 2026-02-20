@@ -1,9 +1,9 @@
 rank,country,noc,iso2,flag_url,gold,silver,bronze,total,is_eu
-1,European Union,EU27,EU,https://flagcdn.com/w40/eu.png,44,51,49,144,True
+1,European Union,EU27,EU,https://flagcdn.com/w40/eu.png,45,51,50,146,True
 2,Norway,NOR,NO,https://flagcdn.com/w40/no.png,17,10,10,37,False
 3,United States,USA,US,https://flagcdn.com/w40/us.png,10,12,6,28,False
-4,Italy,ITA,IT,https://flagcdn.com/w40/it.png,9,5,12,26,True
-5,Netherlands,NED,NL,https://flagcdn.com/w40/nl.png,7,7,3,17,True
+4,Italy,ITA,IT,https://flagcdn.com/w40/it.png,9,5,13,27,True
+5,Netherlands,NED,NL,https://flagcdn.com/w40/nl.png,8,7,3,18,True
 6,Germany,GER,DE,https://flagcdn.com/w40/de.png,6,8,8,22,True
 7,France,FRA,FR,https://flagcdn.com/w40/fr.png,6,8,6,20,True
 8,Switzerland,SUI,CH,https://flagcdn.com/w40/ch.png,6,6,5,17,False
@@ -14,7 +14,7 @@ rank,country,noc,iso2,flag_url,gold,silver,bronze,total,is_eu
 13,People's Republic of China,CHN,CN,https://flagcdn.com/w40/cn.png,4,3,5,12,False
 14,Australia,AUS,AU,https://flagcdn.com/w40/au.png,3,2,1,6,False
 15,Great Britain,GBR,GB,https://flagcdn.com/w40/gb.png,3,0,0,3,False
-16,South Korea,KOR,KR,https://flagcdn.com/w40/kr.png,2,2,3,7,False
+16,South Korea,KOR,KR,https://flagcdn.com/w40/kr.png,2,3,3,8,False
 17,Czech Republic,CZE,CZ,https://flagcdn.com/w40/cz.png,2,2,0,4,True
 18,Slovenia,SLO,SI,https://flagcdn.com/w40/si.png,2,1,1,4,True
 19,Spain,ESP,ES,https://flagcdn.com/w40/es.png,1,0,1,2,True

@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-02-20T16:27:09+00:00",
+  "last_updated_utc": "2026-02-20T17:06:06+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "source_revision_id": "W/\"1339439235/a820a6bb-0e71-11f1-b51b-a193556bdadf/view/html\"",
-  "source_retrieved_at_utc": "2026-02-20T16:27:09+00:00",
+  "source_revision_id": "W/\"1339449133/88db4a20-0e7c-11f1-8463-f130c7d14fd2/view/html\"",
+  "source_retrieved_at_utc": "2026-02-20T17:06:06+00:00",
   "rows": [
     {
       "rank": 1,
@@ -10,10 +10,10 @@
       "noc": "EU27",
       "iso2": "EU",
       "flag_url": "https://flagcdn.com/w40/eu.png",
-      "gold": 43,
+      "gold": 44,
       "silver": 50,
       "bronze": 49,
-      "total": 142,
+      "total": 143,
       "is_eu": true
     },
     {
@@ -23,9 +23,9 @@
       "iso2": "NO",
       "flag_url": "https://flagcdn.com/w40/no.png",
       "gold": 17,
-      "silver": 9,
+      "silver": 10,
       "bronze": 10,
-      "total": 36,
+      "total": 37,
       "is_eu": false
     },
     {
@@ -54,6 +54,18 @@
     },
     {
       "rank": 5,
+      "country": "Netherlands",
+      "noc": "NED",
+      "iso2": "NL",
+      "flag_url": "https://flagcdn.com/w40/nl.png",
+      "gold": 7,
+      "silver": 7,
+      "bronze": 3,
+      "total": 17,
+      "is_eu": true
+    },
+    {
+      "rank": 6,
       "country": "Germany",
       "noc": "GER",
       "iso2": "DE",
@@ -65,7 +77,7 @@
       "is_eu": true
     },
     {
-      "rank": 6,
+      "rank": 7,
       "country": "France",
       "noc": "FRA",
       "iso2": "FR",
@@ -74,18 +86,6 @@
       "silver": 8,
       "bronze": 6,
       "total": 20,
-      "is_eu": true
-    },
-    {
-      "rank": 7,
-      "country": "Netherlands",
-      "noc": "NED",
-      "iso2": "NL",
-      "flag_url": "https://flagcdn.com/w40/nl.png",
-      "gold": 6,
-      "silver": 7,
-      "bronze": 3,
-      "total": 16,
       "is_eu": true
     },
     {
@@ -144,8 +144,8 @@
       "flag_url": "https://flagcdn.com/w40/ca.png",
       "gold": 4,
       "silver": 5,
-      "bronze": 6,
-      "total": 15,
+      "bronze": 7,
+      "total": 16,
       "is_eu": false
     },
     {

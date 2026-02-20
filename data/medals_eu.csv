@@ -7,11 +7,11 @@ rank,country,noc,iso2,flag_url,gold,silver,bronze,total,is_eu
 6,France,FRA,FR,https://flagcdn.com/w40/fr.png,6,8,5,19,True
 7,Netherlands,NED,NL,https://flagcdn.com/w40/nl.png,6,7,3,16,True
 8,Sweden,SWE,SE,https://flagcdn.com/w40/se.png,6,6,4,16,True
-9,Switzerland,SUI,CH,https://flagcdn.com/w40/ch.png,6,5,4,15,False
+8,Switzerland,SUI,CH,https://flagcdn.com/w40/ch.png,6,6,4,16,False
 10,Austria,AUT,AT,https://flagcdn.com/w40/at.png,5,8,5,18,True
 11,Japan,JPN,JP,https://flagcdn.com/w40/jp.png,5,7,12,24,False
 12,Canada,CAN,CA,https://flagcdn.com/w40/ca.png,4,5,6,15,False
-13,People's Republic of China,CHN,CN,https://flagcdn.com/w40/cn.png,3,3,4,10,False
+13,People's Republic of China,CHN,CN,https://flagcdn.com/w40/cn.png,4,3,5,12,False
 14,Australia,AUS,AU,https://flagcdn.com/w40/au.png,3,2,1,6,False
 15,Great Britain,GBR,GB,https://flagcdn.com/w40/gb.png,3,0,0,3,False
 16,South Korea,KOR,KR,https://flagcdn.com/w40/kr.png,2,2,3,7,False

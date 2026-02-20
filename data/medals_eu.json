@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-02-20T21:16:15+00:00",
+  "last_updated_utc": "2026-02-20T21:46:52+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "source_revision_id": "W/\"1339489306/43c80917-0e9e-11f1-8259-4fed680086f8/view/html\"",
-  "source_retrieved_at_utc": "2026-02-20T21:16:14+00:00",
+  "source_revision_id": "W/\"1339495074/c9e65b9c-0ea2-11f1-84a4-bb0d30d59298/view/html\"",
+  "source_retrieved_at_utc": "2026-02-20T21:46:52+00:00",
   "rows": [
     {
       "rank": 1,
@@ -36,8 +36,8 @@
       "flag_url": "https://flagcdn.com/w40/us.png",
       "gold": 10,
       "silver": 12,
-      "bronze": 6,
-      "total": 28,
+      "bronze": 7,
+      "total": 29,
       "is_eu": false
     },
     {
@@ -162,6 +162,18 @@
     },
     {
       "rank": 14,
+      "country": "South Korea",
+      "noc": "KOR",
+      "iso2": "KR",
+      "flag_url": "https://flagcdn.com/w40/kr.png",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 3,
+      "total": 10,
+      "is_eu": false
+    },
+    {
+      "rank": 15,
       "country": "Australia",
       "noc": "AUS",
       "iso2": "AU",
@@ -173,7 +185,7 @@
       "is_eu": false
     },
     {
-      "rank": 15,
+      "rank": 16,
       "country": "Great Britain",
       "noc": "GBR",
       "iso2": "GB",
@@ -182,18 +194,6 @@
       "silver": 0,
       "bronze": 0,
       "total": 3,
-      "is_eu": false
-    },
-    {
-      "rank": 16,
-      "country": "South Korea",
-      "noc": "KOR",
-      "iso2": "KR",
-      "flag_url": "https://flagcdn.com/w40/kr.png",
-      "gold": 2,
-      "silver": 3,
-      "bronze": 3,
-      "total": 8,
       "is_eu": false
     },
     {

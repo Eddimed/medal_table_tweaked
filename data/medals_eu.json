@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-02-21T15:45:34+00:00",
+  "last_updated_utc": "2026-02-21T16:18:04+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "source_revision_id": "W/\"1339638407/1e88e1b4-0f3a-11f1-a810-4d2c719b3915/view/html\"",
-  "source_retrieved_at_utc": "2026-02-21T15:45:34+00:00",
+  "source_revision_id": "W/\"1339641220/5cd3d7df-0f3d-11f1-94b3-5b84d50488ff/view/html\"",
+  "source_retrieved_at_utc": "2026-02-21T16:18:03+00:00",
   "rows": [
     {
       "rank": 1,
@@ -10,10 +10,10 @@
       "noc": "EU27",
       "iso2": "EU",
       "flag_url": "https://flagcdn.com/w40/eu.png",
-      "gold": 48,
-      "silver": 53,
-      "bronze": 52,
-      "total": 153,
+      "gold": 49,
+      "silver": 54,
+      "bronze": 53,
+      "total": 156,
       "is_eu": true
     },
     {
@@ -48,12 +48,24 @@
       "flag_url": "https://flagcdn.com/w40/it.png",
       "gold": 10,
       "silver": 6,
-      "bronze": 13,
-      "total": 29,
+      "bronze": 14,
+      "total": 30,
       "is_eu": true
     },
     {
       "rank": 5,
+      "country": "Netherlands",
+      "noc": "NED",
+      "iso2": "NL",
+      "flag_url": "https://flagcdn.com/w40/nl.png",
+      "gold": 9,
+      "silver": 7,
+      "bronze": 3,
+      "total": 19,
+      "is_eu": true
+    },
+    {
+      "rank": 6,
       "country": "France",
       "noc": "FRA",
       "iso2": "FR",
@@ -62,18 +74,6 @@
       "silver": 9,
       "bronze": 6,
       "total": 23,
-      "is_eu": true
-    },
-    {
-      "rank": 6,
-      "country": "Netherlands",
-      "noc": "NED",
-      "iso2": "NL",
-      "flag_url": "https://flagcdn.com/w40/nl.png",
-      "gold": 8,
-      "silver": 7,
-      "bronze": 3,
-      "total": 18,
       "is_eu": true
     },
     {
@@ -306,6 +306,18 @@
     },
     {
       "rank": 26,
+      "country": "Denmark",
+      "noc": "DEN",
+      "iso2": "DK",
+      "flag_url": "https://flagcdn.com/w40/dk.png",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 0,
+      "total": 1,
+      "is_eu": true
+    },
+    {
+      "rank": 26,
       "country": "Estonia",
       "noc": "EST",
       "iso2": "EE",
@@ -341,7 +353,7 @@
       "is_eu": false
     },
     {
-      "rank": 29,
+      "rank": 30,
       "country": "Bulgaria",
       "noc": "BUL",
       "iso2": "BG",
@@ -353,7 +365,7 @@
       "is_eu": true
     },
     {
-      "rank": 30,
+      "rank": 31,
       "country": "Belgium",
       "noc": "BEL",
       "iso2": "BE",

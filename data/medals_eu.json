@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-02-22T12:29:00+00:00",
+  "last_updated_utc": "2026-02-22T13:25:38+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "source_revision_id": "W/\"1339805374/59e0ee5b-0fe6-11f1-9df6-4b1d67d39ef3/view/html\"",
-  "source_retrieved_at_utc": "2026-02-22T12:29:00+00:00",
+  "source_revision_id": "W/\"1339810778/99aac709-0fec-11f1-9837-43323f58f1a2/view/html\"",
+  "source_retrieved_at_utc": "2026-02-22T13:25:38+00:00",
   "rows": [
     {
       "rank": 1,
@@ -10,10 +10,10 @@
       "noc": "EU27",
       "iso2": "EU",
       "flag_url": "https://flagcdn.com/w40/eu.png",
-      "gold": 53,
+      "gold": 54,
       "silver": 56,
       "bronze": 54,
-      "total": 163,
+      "total": 164,
       "is_eu": true
     },
     {
@@ -94,10 +94,10 @@
       "noc": "SWE",
       "iso2": "SE",
       "flag_url": "https://flagcdn.com/w40/se.png",
-      "gold": 7,
+      "gold": 8,
       "silver": 6,
       "bronze": 4,
-      "total": 17,
+      "total": 18,
       "is_eu": true
     },
     {
@@ -107,9 +107,9 @@
       "iso2": "CH",
       "flag_url": "https://flagcdn.com/w40/ch.png",
       "gold": 6,
-      "silver": 8,
+      "silver": 9,
       "bronze": 8,
-      "total": 22,
+      "total": 23,
       "is_eu": false
     },
     {

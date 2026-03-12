@@ -1,0 +1,27 @@
+rank,country,noc,iso2,flag_url,gold,silver,bronze,total,is_eu
+1,European Union,EU27,EU,https://flagcdn.com/w40/eu.png,20,21,21,62,True
+2,People's Republic of China,CHN,CN,https://flagcdn.com/w40/cn.png,10,7,10,27,False
+3,United States,USA,US,https://flagcdn.com/w40/us.png,6,5,3,14,False
+4,Austria,AUT,AT,https://flagcdn.com/w40/at.png,5,1,4,10,True
+5,Russia,RUS,RU,https://flagcdn.com/w40/ru.png,4,1,2,7,False
+6,Italy,ITA,IT,https://flagcdn.com/w40/it.png,3,6,1,10,True
+7,France,FRA,FR,https://flagcdn.com/w40/fr.png,3,4,3,10,True
+8,Ukraine,UKR,UA,https://flagcdn.com/w40/ua.png,3,2,5,10,False
+9,Sweden,SWE,SE,https://flagcdn.com/w40/se.png,3,0,3,6,True
+10,Germany,GER,DE,https://flagcdn.com/w40/de.png,2,4,6,12,True
+11,Norway,NOR,NO,https://flagcdn.com/w40/no.png,2,2,0,4,False
+12,Netherlands,NED,NL,https://flagcdn.com/w40/nl.png,2,1,1,4,True
+13,Spain,ESP,ES,https://flagcdn.com/w40/es.png,2,1,0,3,True
+14,Switzerland,SUI,CH,https://flagcdn.com/w40/ch.png,2,0,1,3,False
+15,Canada,CAN,CA,https://flagcdn.com/w40/ca.png,1,3,6,10,False
+16,South Korea,KOR,KR,https://flagcdn.com/w40/kr.png,1,3,1,5,False
+17,Belarus,BLR,BY,https://flagcdn.com/w40/by.png,1,1,0,2,False
+18,Czech Republic,CZE,CZ,https://flagcdn.com/w40/cz.png,0,3,0,3,True
+19,Japan,JPN,JP,https://flagcdn.com/w40/jp.png,0,2,0,2,False
+20,Australia,AUS,AU,https://flagcdn.com/w40/au.png,0,1,0,1,False
+20,Brazil,BRA,BR,https://flagcdn.com/w40/br.png,0,1,0,1,False
+20,Finland,FIN,FI,https://flagcdn.com/w40/fi.png,0,1,0,1,True
+20,Great Britain,GBR,GB,https://flagcdn.com/w40/gb.png,0,1,0,1,False
+24,Slovakia,SVK,SK,https://flagcdn.com/w40/sk.png,0,0,2,2,True
+25,Kazakhstan,KAZ,KZ,https://flagcdn.com/w40/kz.png,0,0,1,1,False
+25,Latvia,LAT,LV,https://flagcdn.com/w40/lv.png,0,0,1,1,True

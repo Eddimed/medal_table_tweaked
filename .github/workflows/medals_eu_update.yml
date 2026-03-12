@@ -1,4 +1,4 @@
-name: Update EU Medal Table
+name: Update EU Medal Tables
 
 on:
   schedule:
@@ -21,19 +21,27 @@ jobs:
           python-version: "3.11"
 
       - name: Quick ETag check
-        id: etag_check
-        run: python tools/medals/etag_check.py
+        id: etag_olympics
+        run: python tools/medals/etag_check.py --event olympics
+
+      - name: Quick ETag check (Paralympics)
+        id: etag_paralympics
+        run: python tools/medals/etag_check.py --event paralympics
 
       - name: Install dependencies
-        if: steps.etag_check.outputs.changed == 'true'
+        if: steps.etag_olympics.outputs.changed == 'true' || steps.etag_paralympics.outputs.changed == 'true'
         run: pip install -r tools/medals/requirements.txt
 
-      - name: Fetch medal table
-        if: steps.etag_check.outputs.changed == 'true'
-        run: python tools/medals/fetch_medals.py
+      - name: Fetch Olympic medal table
+        if: steps.etag_olympics.outputs.changed == 'true'
+        run: python tools/medals/fetch_medals.py --event olympics
+
+      - name: Fetch Paralympic medal table
+        if: steps.etag_paralympics.outputs.changed == 'true'
+        run: python tools/medals/fetch_medals.py --event paralympics
 
       - name: Commit changes
-        if: steps.etag_check.outputs.changed == 'true'
+        if: steps.etag_olympics.outputs.changed == 'true' || steps.etag_paralympics.outputs.changed == 'true'
         run: |
           if git diff --quiet; then
             echo "No changes to commit."
@@ -41,6 +49,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/medals_eu.csv data/medals_eu.json data/medals_meta.json data/ioc_codes.csv
-          git commit -m "Update medal table"
+          git add data/medals_eu.csv data/medals_eu.json data/medals_meta.json data/medals_eu_paralympics.csv data/medals_eu_paralympics.json data/medals_meta_paralympics.json data/ioc_codes.csv
+          git commit -m "Update medal tables"
           git push

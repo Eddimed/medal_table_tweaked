@@ -3,30 +3,27 @@ import json
 import os
 import sys
 import urllib.request
-from pathlib import Path
 
-MEDAL_URL = "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html"
 USER_AGENT = "eddimed-medals-bot/1.0 (https://github.com/Eddimed/eddimed_webpage)"
 
-BASE_DIR = Path(__file__).resolve().parents[2]
-META_JSON = BASE_DIR / "data" / "medals_meta.json"
+from events import default_event_key, get_event_config
 
 
-def load_meta():
-    if META_JSON.exists():
-        return json.loads(META_JSON.read_text(encoding="utf-8"))
+def load_meta(meta_path):
+    if meta_path.exists():
+        return json.loads(meta_path.read_text(encoding="utf-8"))
     return {}
 
 
-def fetch_headers():
-    req = urllib.request.Request(MEDAL_URL, method="HEAD")
+def fetch_headers(url):
+    req = urllib.request.Request(url, method="HEAD")
     req.add_header("User-Agent", USER_AGENT)
     try:
         with urllib.request.urlopen(req, timeout=20) as resp:
             return resp.headers
     except Exception:
         # Fallback to GET if HEAD is not supported
-        req = urllib.request.Request(MEDAL_URL, method="GET")
+        req = urllib.request.Request(url, method="GET")
         req.add_header("User-Agent", USER_AGENT)
         with urllib.request.urlopen(req, timeout=20) as resp:
             return resp.headers
@@ -39,9 +36,31 @@ def write_output(changed):
             fh.write(f"changed={str(changed).lower()}\n")
 
 
+def parse_args(argv):
+    event_key = default_event_key()
+
+    idx = 0
+    while idx < len(argv):
+        arg = argv[idx]
+        if arg.startswith("--event="):
+            event_key = arg.split("=", 1)[1].strip()
+            idx += 1
+            continue
+        if arg == "--event":
+            if idx + 1 >= len(argv):
+                raise SystemExit("--event requires a value")
+            event_key = argv[idx + 1].strip()
+            idx += 2
+            continue
+        raise SystemExit(f"Unknown argument: {arg}")
+
+    return event_key
+
+
 def main():
-    meta = load_meta()
-    headers = fetch_headers()
+    event = get_event_config(parse_args(sys.argv[1:]))
+    meta = load_meta(event["meta_path"])
+    headers = fetch_headers(event["medal_url"])
 
     etag = headers.get("ETag")
     last_modified = headers.get("Last-Modified")

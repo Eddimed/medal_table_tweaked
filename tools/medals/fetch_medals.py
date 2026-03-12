@@ -12,18 +12,13 @@ import pandas as pd
 import requests
 import pycountry
 
-MEDAL_URL = "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html"
 IOC_CODES_URL = "https://en.wikipedia.org/wiki/List_of_IOC_country_codes"
 USER_AGENT = "eddimed-medals-bot/1.0 (https://github.com/Eddimed/eddimed_webpage)"
 
-BASE_DIR = Path(__file__).resolve().parents[2]
-DATA_DIR = BASE_DIR / "data"
+from events import DATA_DIR, default_event_key, get_event_config
 
 IOC_CODES_CSV = DATA_DIR / "ioc_codes.csv"
 EU_MEMBERS_JSON = DATA_DIR / "eu_members.json"
-MEDALS_CSV = DATA_DIR / "medals_eu.csv"
-MEDALS_JSON = DATA_DIR / "medals_eu.json"
-META_JSON = DATA_DIR / "medals_meta.json"
 
 NAME_OVERRIDES = {
     "Czechia": "Czech Republic",
@@ -104,6 +99,14 @@ def normalize_text(value):
     text = text.replace("†", "").replace("‡", "").replace("*", "")
     text = re.sub(r"\s+", " ", text).strip()
     return text
+
+
+def split_embedded_noc(value):
+    text = normalize_text(value)
+    match = re.match(r"^(.*)\(([A-Z]{3})\)$", text)
+    if not match:
+        return text, None
+    return match.group(1).strip(), match.group(2)
 
 
 def name_key(value):
@@ -250,6 +253,7 @@ def parse_medal_table(html, name_to_noc, noc_to_name):
     for _, row in df.iterrows():
         country_raw = normalize_text(row.get(nation_col)) if nation_col else ""
         noc_raw = normalize_text(row.get(noc_col)) if noc_col else ""
+        country_raw, embedded_noc = split_embedded_noc(country_raw)
         country = NAME_OVERRIDES.get(country_raw, country_raw)
 
         if not country or country.lower().startswith("total"):
@@ -262,7 +266,7 @@ def parse_medal_table(html, name_to_noc, noc_to_name):
         if total == 0:
             total = gold + silver + bronze
 
-        noc = noc_raw
+        noc = noc_raw or embedded_noc
         if not noc or len(noc) != 3:
             noc = name_to_noc.get(name_key(country))
         if not noc:
@@ -354,10 +358,10 @@ def add_eu_row(rows, eu_members):
     )
 
 
-def write_outputs(rows, meta, unmapped):
+def write_outputs(rows, meta, unmapped, event):
     rows = compute_rank(rows)
 
-    with MEDALS_CSV.open("w", encoding="utf-8", newline="") as fh:
+    with event["csv_path"].open("w", encoding="utf-8", newline="") as fh:
         writer = csv.DictWriter(
             fh,
             fieldnames=[
@@ -378,34 +382,68 @@ def write_outputs(rows, meta, unmapped):
             writer.writerow(row)
 
     medals_payload = {
+        "event_key": event["key"],
+        "event_label": event["event_label"],
+        "event_title": event["page_title"],
+        "games_label": event["games_label"],
+        "hero_title": event["hero_title"],
         "last_updated_utc": now_utc_iso(),
-        "source_url": MEDAL_URL,
+        "source_url": event["medal_url"],
+        "source_label": event["source_label"],
         "source_revision_id": meta.get("last_revision_id"),
         "source_retrieved_at_utc": meta.get("last_update_utc"),
         "rows": rows,
     }
-    save_json(MEDALS_JSON, medals_payload)
+    save_json(event["json_path"], medals_payload)
 
     meta["unmapped_countries"] = unmapped
-    save_json(META_JSON, meta)
+    save_json(event["meta_path"], meta)
+
+
+def parse_args(argv):
+    force = False
+    event_key = default_event_key()
+
+    idx = 0
+    while idx < len(argv):
+        arg = argv[idx]
+        if arg == "--force":
+            force = True
+            idx += 1
+            continue
+        if arg.startswith("--event="):
+            event_key = arg.split("=", 1)[1].strip()
+            idx += 1
+            continue
+        if arg == "--event":
+            if idx + 1 >= len(argv):
+                raise SystemExit("--event requires a value")
+            event_key = argv[idx + 1].strip()
+            idx += 2
+            continue
+        raise SystemExit(f"Unknown argument: {arg}")
+
+    return force, event_key
 
 
 def main():
-    force = "--force" in sys.argv
+    force, event_key = parse_args(sys.argv[1:])
+    event = get_event_config(event_key)
 
     meta = load_json(
-        META_JSON,
+        event["meta_path"],
         {
             "last_etag": None,
             "last_modified": None,
             "last_revision_id": None,
             "last_update_utc": None,
-            "source_url": MEDAL_URL,
+            "event_key": event["key"],
+            "source_url": event["medal_url"],
             "unmapped_countries": [],
         },
     )
 
-    html, headers = fetch_url(MEDAL_URL)
+    html, headers = fetch_url(event["medal_url"])
     etag = headers.get("ETag")
     last_modified = headers.get("Last-Modified")
 
@@ -421,21 +459,22 @@ def main():
     meta["last_modified"] = last_modified
     meta["last_revision_id"] = etag or meta.get("last_revision_id")
     meta["last_update_utc"] = now_utc_iso()
-    meta["source_url"] = MEDAL_URL
+    meta["event_key"] = event["key"]
+    meta["source_url"] = event["medal_url"]
 
     noc_to_name, name_to_noc = load_ioc_codes()
     rows, unmapped = parse_medal_table(html, name_to_noc, noc_to_name)
 
     if unmapped:
         meta["unmapped_countries"] = unmapped
-        save_json(META_JSON, meta)
+        save_json(event["meta_path"], meta)
         raise RuntimeError(f"Unmapped countries: {', '.join(unmapped)}")
 
     eu_members = load_eu_members()
     add_eu_row(rows, eu_members)
-    write_outputs(rows, meta, unmapped)
+    write_outputs(rows, meta, unmapped, event)
 
-    print("Medal table updated.")
+    print(f"{event['event_label']} medal table updated.")
     return 0
 
 

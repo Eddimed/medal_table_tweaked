@@ -1,14 +1,14 @@
-# Medal Table (Milano–Cortina 2026)
+# Medal Tables (Milano–Cortina 2026)
 
-This folder contains a standalone, auto-updating medal table that adds a computed **EU27** row to the official medal standings.
+This folder contains a standalone, auto-updating medal-table site that adds a computed **EU27** row to the official standings for both the Olympics and Paralympics.
 
 ## What it does
-- Fetches the Milano–Cortina 2026 medal table from Wikipedia (MediaWiki REST API).
-- Maps countries to IOC NOC codes.
-- Sums medals for the 27 EU member states and inserts a computed **EU27** row.
-- Outputs both CSV and JSON for reuse.
-- Provides a static HTML page that displays the enhanced table.
-- Includes a GitHub Actions workflow to refresh the data on a schedule.
+- Fetches the Milano–Cortina 2026 Olympic and Paralympic medal tables from Wikipedia (MediaWiki REST API).
+- Maps countries to IOC-style three-letter codes using a shared `ioc_codes.csv`.
+- Sums medals for the 27 EU member states and inserts a computed **EU27** row for each event.
+- Outputs CSV and JSON for both events.
+- Provides a static HTML page that can switch between Olympic and Paralympic standings.
+- Includes a GitHub Actions workflow to refresh both datasets on a schedule.
 
 ## Structure
 ```
@@ -18,6 +18,9 @@ medal_table_tweaked/
 │   ├── medals_eu.csv
 │   ├── medals_eu.json
 │   ├── medals_meta.json
+│   ├── medals_eu_paralympics.csv
+│   ├── medals_eu_paralympics.json
+│   ├── medals_meta_paralympics.json
 │   ├── ioc_codes.csv
 │   └── eu_members.json
 ├── tools/
@@ -32,8 +35,9 @@ medal_table_tweaked/
 
 ## Run locally
 ```bash
-cd /home/bernd/Software/medal_table_tweaked
-python3 tools/medals/fetch_medals.py --force
+cd (local Path)/medal_table_tweaked
+python3 tools/medals/fetch_medals.py --event olympics --force
+python3 tools/medals/fetch_medals.py --event paralympics --force
 ```
 
 Serve the page locally (so `fetch()` works):
@@ -52,6 +56,8 @@ Once published to GitHub Pages, the data files are publicly accessible and can b
 Example URLs (adjust to your repo/site):
 - `https://<your-domain-or-user>.github.io/<repo>/data/medals_eu.json`
 - `https://<your-domain-or-user>.github.io/<repo>/data/medals_eu.csv`
+- `https://<your-domain-or-user>.github.io/<repo>/data/medals_eu_paralympics.json`
+- `https://<your-domain-or-user>.github.io/<repo>/data/medals_eu_paralympics.csv`
 
 Example (fetch JSON in the browser):
 ```js
@@ -61,7 +67,9 @@ fetch('https://<your-domain-or-user>.github.io/<repo>/data/medals_eu.json')
 ```
 ## Notes
 - The EU27 row is computed from `data/eu_members.json` and uses the code `EU27`.
-- `ioc_codes.csv` is auto-populated from Wikipedia if empty; you can replace it with a curated list if desired.
+- `data/medals_eu.json` and `data/medals_eu.csv` remain the Olympic outputs for backward compatibility.
+- `data/medals_eu_paralympics.json` and `data/medals_eu_paralympics.csv` hold the Paralympic outputs.
+- `ioc_codes.csv` is shared by both event pipelines for now and is auto-populated from Wikipedia if empty.
 
 
 ## GitHub Pages Deployment
@@ -79,6 +87,11 @@ DNS setup (at your domain provider):
 
 After the DNS change propagates and the repo is pushed, the site will be reachable at:
 - `https://olympia.diabsurance.de`
+
+For the Paralympics entry point, use a domain redirect instead of a second GitHub Pages custom domain:
+- `https://paralympics.diabsurance.de` should be configured at the DNS/domain provider as an HTTP 301/302 redirect to `https://olympia.diabsurance.de/paralympics/`
+- Keep this repository `CNAME` file set to `olympia.diabsurance.de` only
+- A plain DNS `CNAME` for `paralympics` is not sufficient, because it cannot append the `/paralympics/` path
 
 
 ## Commercial Use

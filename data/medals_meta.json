@@ -1,8 +1,9 @@
 {
-  "last_etag": "W/\"1342520747/e4633bbe-1bb3-11f1-b0f4-9f2b428d1538/view/html\"",
-  "last_modified": "Mon, 09 Mar 2026 12:31:23 GMT",
-  "last_revision_id": "W/\"1342520747/e4633bbe-1bb3-11f1-b0f4-9f2b428d1538/view/html\"",
-  "last_update_utc": "2026-03-09T12:43:35+00:00",
+  "last_etag": "W/\"1343163491/d2dda252-1e36-11f1-b20e-0b7bab922541/view/html\"",
+  "last_modified": "Thu, 12 Mar 2026 17:13:40 GMT",
+  "last_revision_id": "W/\"1343163491/d2dda252-1e36-11f1-b20e-0b7bab922541/view/html\"",
+  "last_update_utc": "2026-03-12T23:49:23+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "unmapped_countries": []
+  "unmapped_countries": [],
+  "event_key": "olympics"
 }

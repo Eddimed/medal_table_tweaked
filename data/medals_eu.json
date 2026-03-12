@@ -1,8 +1,14 @@
 {
-  "last_updated_utc": "2026-03-09T12:43:35+00:00",
+  "event_key": "olympics",
+  "event_label": "Olympics",
+  "event_title": "Milano-Cortina 2026 Olympics",
+  "games_label": "Milano-Cortina 2026",
+  "hero_title": "Olympic Medal Table",
+  "last_updated_utc": "2026-03-12T23:49:24+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Olympics_medal_table/html",
-  "source_revision_id": "W/\"1342520747/e4633bbe-1bb3-11f1-b0f4-9f2b428d1538/view/html\"",
-  "source_retrieved_at_utc": "2026-03-09T12:43:35+00:00",
+  "source_label": "Wikipedia (Olympic Medal Table)",
+  "source_revision_id": "W/\"1343163491/d2dda252-1e36-11f1-b20e-0b7bab922541/view/html\"",
+  "source_retrieved_at_utc": "2026-03-12T23:49:23+00:00",
   "rows": [
     {
       "rank": 1,

@@ -4,11 +4,11 @@
   "event_title": "Milano-Cortina 2026 Paralympics",
   "games_label": "Milano-Cortina 2026",
   "hero_title": "Paralympic Medal Table",
-  "last_updated_utc": "2026-03-13T14:11:50+00:00",
+  "last_updated_utc": "2026-03-13T15:10:38+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Paralympics_medal_table/html",
   "source_label": "Wikipedia (Paralympic Medal Table)",
-  "source_revision_id": "W/\"1343303782/2a37475b-1edf-11f1-8176-d10e8c9558c8/view/html\"",
-  "source_retrieved_at_utc": "2026-03-13T14:11:50+00:00",
+  "source_revision_id": "W/\"1343313321/48ee05f3-1ee8-11f1-8a30-bf2243765926/view/html\"",
+  "source_retrieved_at_utc": "2026-03-13T15:10:38+00:00",
   "rows": [
     {
       "rank": 1,
@@ -16,10 +16,10 @@
       "noc": "EU27",
       "iso2": "EU",
       "flag_url": "https://flagcdn.com/w40/eu.png",
-      "gold": 25,
-      "silver": 23,
+      "gold": 26,
+      "silver": 24,
       "bronze": 25,
-      "total": 73,
+      "total": 75,
       "is_eu": true
     },
     {
@@ -48,6 +48,18 @@
     },
     {
       "rank": 4,
+      "country": "Italy",
+      "noc": "ITA",
+      "iso2": "IT",
+      "flag_url": "https://flagcdn.com/w40/it.png",
+      "gold": 6,
+      "silver": 7,
+      "bronze": 1,
+      "total": 14,
+      "is_eu": true
+    },
+    {
+      "rank": 5,
       "country": "Austria",
       "noc": "AUT",
       "iso2": "AT",
@@ -56,18 +68,6 @@
       "silver": 1,
       "bronze": 4,
       "total": 11,
-      "is_eu": true
-    },
-    {
-      "rank": 5,
-      "country": "Italy",
-      "noc": "ITA",
-      "iso2": "IT",
-      "flag_url": "https://flagcdn.com/w40/it.png",
-      "gold": 5,
-      "silver": 7,
-      "bronze": 1,
-      "total": 13,
       "is_eu": true
     },
     {
@@ -149,13 +149,25 @@
       "iso2": "NL",
       "flag_url": "https://flagcdn.com/w40/nl.png",
       "gold": 2,
-      "silver": 2,
+      "silver": 3,
       "bronze": 1,
-      "total": 5,
+      "total": 6,
       "is_eu": true
     },
     {
-      "rank": 12,
+      "rank": 13,
+      "country": "Norway",
+      "noc": "NOR",
+      "iso2": "NO",
+      "flag_url": "https://flagcdn.com/w40/no.png",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 1,
+      "total": 5,
+      "is_eu": false
+    },
+    {
+      "rank": 13,
       "country": "Switzerland",
       "noc": "SUI",
       "iso2": "CH",
@@ -164,18 +176,6 @@
       "silver": 2,
       "bronze": 1,
       "total": 5,
-      "is_eu": false
-    },
-    {
-      "rank": 14,
-      "country": "Norway",
-      "noc": "NOR",
-      "iso2": "NO",
-      "flag_url": "https://flagcdn.com/w40/no.png",
-      "gold": 2,
-      "silver": 2,
-      "bronze": 0,
-      "total": 4,
       "is_eu": false
     },
     {

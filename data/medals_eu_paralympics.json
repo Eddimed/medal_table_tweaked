@@ -4,11 +4,11 @@
   "event_title": "Milano-Cortina 2026 Paralympics",
   "games_label": "Milano-Cortina 2026",
   "hero_title": "Paralympic Medal Table",
-  "last_updated_utc": "2026-03-13T19:56:06+00:00",
+  "last_updated_utc": "2026-03-13T21:38:00+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Paralympics_medal_table/html",
   "source_label": "Wikipedia (Paralympic Medal Table)",
-  "source_revision_id": "W/\"1343354254/58367ccf-1f13-11f1-beb7-6bef4ae1c568/view/html\"",
-  "source_retrieved_at_utc": "2026-03-13T19:56:06+00:00",
+  "source_revision_id": "W/\"1343368784/757348cb-1f23-11f1-bb14-7bc441fb74ed/view/html\"",
+  "source_retrieved_at_utc": "2026-03-13T21:38:00+00:00",
   "rows": [
     {
       "rank": 1,
@@ -18,8 +18,8 @@
       "flag_url": "https://flagcdn.com/w40/eu.png",
       "gold": 26,
       "silver": 24,
-      "bronze": 26,
-      "total": 76,
+      "bronze": 27,
+      "total": 77,
       "is_eu": true
     },
     {
@@ -114,8 +114,8 @@
       "flag_url": "https://flagcdn.com/w40/se.png",
       "gold": 3,
       "silver": 0,
-      "bronze": 3,
-      "total": 6,
+      "bronze": 4,
+      "total": 7,
       "is_eu": true
     },
     {

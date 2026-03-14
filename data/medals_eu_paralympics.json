@@ -4,11 +4,11 @@
   "event_title": "Milano-Cortina 2026 Paralympics",
   "games_label": "Milano-Cortina 2026",
   "hero_title": "Paralympic Medal Table",
-  "last_updated_utc": "2026-03-14T13:01:56+00:00",
+  "last_updated_utc": "2026-03-14T14:01:07+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Paralympics_medal_table/html",
   "source_label": "Wikipedia (Paralympic Medal Table)",
-  "source_revision_id": "W/\"1343458293/1275c313-1fa4-11f1-bec7-6f19f5a021cb/view/html\"",
-  "source_retrieved_at_utc": "2026-03-14T13:01:55+00:00",
+  "source_revision_id": "W/\"1343460403/a9904880-1fa7-11f1-b878-63b485ab6898/view/html\"",
+  "source_retrieved_at_utc": "2026-03-14T14:01:07+00:00",
   "rows": [
     {
       "rank": 1,
@@ -17,9 +17,9 @@
       "iso2": "EU",
       "flag_url": "https://flagcdn.com/w40/eu.png",
       "gold": 27,
-      "silver": 26,
-      "bronze": 28,
-      "total": 81,
+      "silver": 27,
+      "bronze": 29,
+      "total": 83,
       "is_eu": true
     },
     {
@@ -28,10 +28,10 @@
       "noc": "CHN",
       "iso2": "CN",
       "flag_url": "https://flagcdn.com/w40/cn.png",
-      "gold": 13,
+      "gold": 14,
       "silver": 10,
       "bronze": 13,
-      "total": 36,
+      "total": 37,
       "is_eu": false
     },
     {
@@ -186,8 +186,8 @@
       "flag_url": "https://flagcdn.com/w40/es.png",
       "gold": 2,
       "silver": 1,
-      "bronze": 0,
-      "total": 3,
+      "bronze": 1,
+      "total": 4,
       "is_eu": true
     },
     {
@@ -252,6 +252,18 @@
     },
     {
       "rank": 21,
+      "country": "Finland",
+      "noc": "FIN",
+      "iso2": "FI",
+      "flag_url": "https://flagcdn.com/w40/fi.png",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 0,
+      "total": 2,
+      "is_eu": true
+    },
+    {
+      "rank": 22,
       "country": "Australia",
       "noc": "AUS",
       "iso2": "AU",
@@ -263,7 +275,7 @@
       "is_eu": false
     },
     {
-      "rank": 22,
+      "rank": 23,
       "country": "Brazil",
       "noc": "BRA",
       "iso2": "BR",
@@ -275,19 +287,7 @@
       "is_eu": false
     },
     {
-      "rank": 22,
-      "country": "Finland",
-      "noc": "FIN",
-      "iso2": "FI",
-      "flag_url": "https://flagcdn.com/w40/fi.png",
-      "gold": 0,
-      "silver": 1,
-      "bronze": 0,
-      "total": 1,
-      "is_eu": true
-    },
-    {
-      "rank": 22,
+      "rank": 23,
       "country": "Great Britain",
       "noc": "GBR",
       "iso2": "GB",

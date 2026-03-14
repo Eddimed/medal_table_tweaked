@@ -4,11 +4,11 @@
   "event_title": "Milano-Cortina 2026 Paralympics",
   "games_label": "Milano-Cortina 2026",
   "hero_title": "Paralympic Medal Table",
-  "last_updated_utc": "2026-03-14T14:55:15+00:00",
+  "last_updated_utc": "2026-03-14T16:37:53+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Paralympics_medal_table/html",
   "source_label": "Wikipedia (Paralympic Medal Table)",
-  "source_revision_id": "W/\"1343471046/8371a527-1fb5-11f1-8ef3-471c7d4a6cf7/view/html\"",
-  "source_retrieved_at_utc": "2026-03-14T14:55:15+00:00",
+  "source_revision_id": "W/\"1343477889/f41cce91-1fbd-11f1-80ad-691166b9feed/view/html\"",
+  "source_retrieved_at_utc": "2026-03-14T16:37:53+00:00",
   "rows": [
     {
       "rank": 1,
@@ -29,9 +29,9 @@
       "iso2": "CN",
       "flag_url": "https://flagcdn.com/w40/cn.png",
       "gold": 14,
-      "silver": 10,
+      "silver": 11,
       "bronze": 13,
-      "total": 37,
+      "total": 38,
       "is_eu": false
     },
     {
@@ -108,6 +108,18 @@
     },
     {
       "rank": 9,
+      "country": "Canada",
+      "noc": "CAN",
+      "iso2": "CA",
+      "flag_url": "https://flagcdn.com/w40/ca.png",
+      "gold": 3,
+      "silver": 3,
+      "bronze": 7,
+      "total": 13,
+      "is_eu": false
+    },
+    {
+      "rank": 10,
       "country": "Sweden",
       "noc": "SWE",
       "iso2": "SE",
@@ -119,7 +131,7 @@
       "is_eu": true
     },
     {
-      "rank": 10,
+      "rank": 11,
       "country": "Germany",
       "noc": "GER",
       "iso2": "DE",
@@ -129,18 +141,6 @@
       "bronze": 9,
       "total": 16,
       "is_eu": true
-    },
-    {
-      "rank": 11,
-      "country": "Canada",
-      "noc": "CAN",
-      "iso2": "CA",
-      "flag_url": "https://flagcdn.com/w40/ca.png",
-      "gold": 2,
-      "silver": 3,
-      "bronze": 7,
-      "total": 12,
-      "is_eu": false
     },
     {
       "rank": 12,

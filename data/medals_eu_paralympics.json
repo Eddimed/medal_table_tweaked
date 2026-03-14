@@ -4,11 +4,11 @@
   "event_title": "Milano-Cortina 2026 Paralympics",
   "games_label": "Milano-Cortina 2026",
   "hero_title": "Paralympic Medal Table",
-  "last_updated_utc": "2026-03-14T11:28:32+00:00",
+  "last_updated_utc": "2026-03-14T13:01:56+00:00",
   "source_url": "https://en.wikipedia.org/w/rest.php/v1/page/2026_Winter_Paralympics_medal_table/html",
   "source_label": "Wikipedia (Paralympic Medal Table)",
-  "source_revision_id": "W/\"1343446334/f49f6826-1f91-11f1-94d7-d9d0476e6f88/view/html\"",
-  "source_retrieved_at_utc": "2026-03-14T11:28:32+00:00",
+  "source_revision_id": "W/\"1343458293/1275c313-1fa4-11f1-bec7-6f19f5a021cb/view/html\"",
+  "source_retrieved_at_utc": "2026-03-14T13:01:55+00:00",
   "rows": [
     {
       "rank": 1,
@@ -16,10 +16,10 @@
       "noc": "EU27",
       "iso2": "EU",
       "flag_url": "https://flagcdn.com/w40/eu.png",
-      "gold": 26,
-      "silver": 25,
-      "bronze": 27,
-      "total": 78,
+      "gold": 27,
+      "silver": 26,
+      "bronze": 28,
+      "total": 81,
       "is_eu": true
     },
     {
@@ -29,9 +29,9 @@
       "iso2": "CN",
       "flag_url": "https://flagcdn.com/w40/cn.png",
       "gold": 13,
-      "silver": 9,
+      "silver": 10,
       "bronze": 13,
-      "total": 35,
+      "total": 36,
       "is_eu": false
     },
     {
@@ -48,6 +48,18 @@
     },
     {
       "rank": 4,
+      "country": "Austria",
+      "noc": "AUT",
+      "iso2": "AT",
+      "flag_url": "https://flagcdn.com/w40/at.png",
+      "gold": 7,
+      "silver": 2,
+      "bronze": 4,
+      "total": 13,
+      "is_eu": true
+    },
+    {
+      "rank": 5,
       "country": "Italy",
       "noc": "ITA",
       "iso2": "IT",
@@ -59,19 +71,19 @@
       "is_eu": true
     },
     {
-      "rank": 5,
-      "country": "Austria",
-      "noc": "AUT",
-      "iso2": "AT",
-      "flag_url": "https://flagcdn.com/w40/at.png",
-      "gold": 6,
+      "rank": 6,
+      "country": "Russia",
+      "noc": "RUS",
+      "iso2": "RU",
+      "flag_url": "https://flagcdn.com/w40/ru.png",
+      "gold": 5,
       "silver": 1,
-      "bronze": 4,
-      "total": 11,
-      "is_eu": true
+      "bronze": 3,
+      "total": 9,
+      "is_eu": false
     },
     {
-      "rank": 6,
+      "rank": 7,
       "country": "France",
       "noc": "FRA",
       "iso2": "FR",
@@ -81,18 +93,6 @@
       "bronze": 3,
       "total": 11,
       "is_eu": true
-    },
-    {
-      "rank": 7,
-      "country": "Russia",
-      "noc": "RUS",
-      "iso2": "RU",
-      "flag_url": "https://flagcdn.com/w40/ru.png",
-      "gold": 4,
-      "silver": 1,
-      "bronze": 3,
-      "total": 8,
-      "is_eu": false
     },
     {
       "rank": 8,
@@ -138,8 +138,8 @@
       "flag_url": "https://flagcdn.com/w40/ca.png",
       "gold": 2,
       "silver": 3,
-      "bronze": 6,
-      "total": 11,
+      "bronze": 7,
+      "total": 12,
       "is_eu": false
     },
     {
@@ -306,8 +306,8 @@
       "flag_url": "https://flagcdn.com/w40/sk.png",
       "gold": 0,
       "silver": 0,
-      "bronze": 2,
-      "total": 2,
+      "bronze": 3,
+      "total": 3,
       "is_eu": true
     },
     {

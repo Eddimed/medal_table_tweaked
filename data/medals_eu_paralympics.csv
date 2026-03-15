@@ -1,20 +1,20 @@
 rank,country,noc,iso2,flag_url,gold,silver,bronze,total,is_eu
-1,European Union,EU27,EU,https://flagcdn.com/w40/eu.png,27,27,29,83,True
-2,People's Republic of China,CHN,CN,https://flagcdn.com/w40/cn.png,14,11,13,38,False
-3,United States,USA,US,https://flagcdn.com/w40/us.png,10,5,5,20,False
+1,European Union,EU27,EU,https://flagcdn.com/w40/eu.png,27,28,30,85,True
+2,People's Republic of China,CHN,CN,https://flagcdn.com/w40/cn.png,14,12,13,39,False
+3,United States,USA,US,https://flagcdn.com/w40/us.png,10,5,6,21,False
 4,Austria,AUT,AT,https://flagcdn.com/w40/at.png,7,2,4,13,True
-5,Italy,ITA,IT,https://flagcdn.com/w40/it.png,6,7,1,14,True
-6,Russia,RUS,RU,https://flagcdn.com/w40/ru.png,5,1,3,9,False
+5,Italy,ITA,IT,https://flagcdn.com/w40/it.png,6,7,2,15,True
+6,Russia,RUS,RU,https://flagcdn.com/w40/ru.png,6,1,3,10,False
 7,France,FRA,FR,https://flagcdn.com/w40/fr.png,4,4,3,11,True
 8,Ukraine,UKR,UA,https://flagcdn.com/w40/ua.png,3,7,7,17,False
 9,Canada,CAN,CA,https://flagcdn.com/w40/ca.png,3,3,7,13,False
 10,Sweden,SWE,SE,https://flagcdn.com/w40/se.png,3,0,4,7,True
-11,Germany,GER,DE,https://flagcdn.com/w40/de.png,2,5,9,16,True
-12,Netherlands,NED,NL,https://flagcdn.com/w40/nl.png,2,3,1,6,True
-13,Norway,NOR,NO,https://flagcdn.com/w40/no.png,2,2,2,6,False
-14,Switzerland,SUI,CH,https://flagcdn.com/w40/ch.png,2,2,1,5,False
-15,Spain,ESP,ES,https://flagcdn.com/w40/es.png,2,1,1,4,True
-16,South Korea,KOR,KR,https://flagcdn.com/w40/kr.png,1,4,1,6,False
+11,Germany,GER,DE,https://flagcdn.com/w40/de.png,2,6,9,17,True
+12,South Korea,KOR,KR,https://flagcdn.com/w40/kr.png,2,4,1,7,False
+13,Netherlands,NED,NL,https://flagcdn.com/w40/nl.png,2,3,1,6,True
+14,Norway,NOR,NO,https://flagcdn.com/w40/no.png,2,2,2,6,False
+15,Switzerland,SUI,CH,https://flagcdn.com/w40/ch.png,2,2,1,5,False
+16,Spain,ESP,ES,https://flagcdn.com/w40/es.png,2,1,1,4,True
 17,Czech Republic,CZE,CZ,https://flagcdn.com/w40/cz.png,1,3,1,5,True
 18,Belarus,BLR,BY,https://flagcdn.com/w40/by.png,1,1,0,2,False
 19,Kazakhstan,KAZ,KZ,https://flagcdn.com/w40/kz.png,1,0,1,2,False
